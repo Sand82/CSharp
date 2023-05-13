@@ -6,16 +6,16 @@ using MediatR;
 
 namespace DemoLibrary.Handlers
 {
-    public class GetPersonListHandler : IRequestHandler<GetPersonListQuery, List<PersonOutputModel>>
+    public class GetPersonsListHandler : IRequestHandler<GetPersonsListQuery, List<PersonOutputModel>>
     {
         private readonly IDataAccess data;
 
-        public GetPersonListHandler(IDataAccess data)
+        public GetPersonsListHandler(IDataAccess data)
         {
             this.data = data;
         }
 
-        public Task<List<PersonOutputModel>> Handle(GetPersonListQuery request, CancellationToken cancellationToken)
+        public Task<List<PersonOutputModel>> Handle(GetPersonsListQuery request, CancellationToken cancellationToken)
         {
             var persons = data.GetAll();
 

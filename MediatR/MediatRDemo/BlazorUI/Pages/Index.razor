@@ -20,6 +20,6 @@ Welcome to your new app.
 
     protected override async Task OnInitializedAsync()
     {
-        peoples = await mediatr.Send(new GetPersonListQuery());
+        peoples = await mediatr.Send(new GetPersonsListQuery());
     }
 }

@@ -1,11 +1,12 @@
 ﻿using DemoLibrary.DataAccess;
 using DemoLibrary.Models;
+using DemoLibrary.Models.ApiModels;
 using DemoLibrary.Queries;
 using MediatR;
 
 namespace DemoLibrary.Handlers
 {
-    public class GetPersonListHandler : IRequestHandler<GetPersonListQuery, List<PersonModel>>
+    public class GetPersonListHandler : IRequestHandler<GetPersonListQuery, List<PersonOutputModel>>
     {
         private readonly IDataAccess data;
 
@@ -14,9 +15,15 @@ namespace DemoLibrary.Handlers
             this.data = data;
         }
 
-        public Task<List<PersonModel>> Handle(GetPersonListQuery request, CancellationToken cancellationToken)
+        public Task<List<PersonOutputModel>> Handle(GetPersonListQuery request, CancellationToken cancellationToken)
         {
-            return Task.FromResult(data.GetAll());
+            var persons = data.GetAll();
+
+            var models = persons
+                .Select(p => new PersonOutputModel { FirstName = p.FirstName, LastName = p.LastName })
+                .ToList();
+
+            return Task.FromResult(models);
         }
     }
 }

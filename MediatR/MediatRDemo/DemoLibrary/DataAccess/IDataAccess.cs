@@ -1,4 +1,4 @@
-﻿using DemoLibrary.Models;
+﻿using DemoLibrary.Models.DataModel;
 
 namespace DemoLibrary.DataAccess
 {

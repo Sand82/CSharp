@@ -1,6 +1,6 @@
 using BlazorUI.Data;
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
+using DemoLibrary;
+using DemoLibrary.DataAccess;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddSingleton<IDataAccess, DataAccess>();
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining(typeof(LibralyMidiatREntryPoint)));
 
 var app = builder.Build();
 

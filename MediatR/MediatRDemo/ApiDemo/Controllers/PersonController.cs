@@ -1,5 +1,7 @@
-﻿using DemoLibrary.Models;
+﻿using DemoLibrary.Commands;
+using DemoLibrary.Models;
 using DemoLibrary.Models.ApiModels;
+using DemoLibrary.Models.OutputModels;
 using DemoLibrary.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -32,8 +34,9 @@ namespace ApiDemo.Controllers
         }
         
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<CreatePersonOutputModel> Post([FromBody] PersonOutputModel model)
         {
+            return await mediator.Send(new CreatePersonCommand(model.FirstName, model.LastName));
         }
         
         [HttpPut("{id}")]

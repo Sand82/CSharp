@@ -1,5 +1,4 @@
 ﻿using DemoLibrary.DataAccess;
-using DemoLibrary.Models;
 using DemoLibrary.Models.ApiModels;
 using DemoLibrary.Queries;
 using MediatR;

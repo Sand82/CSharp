@@ -34,19 +34,21 @@ namespace ApiDemo.Controllers
         }
         
         [HttpPost]
-        public async Task<CreatePersonOutputModel> Post([FromBody] PersonOutputModel model)
+        public async Task<CreateEditPersonOutputModel> Post([FromBody] PersonOutputModel model)
         {
             return await mediator.Send(new CreatePersonCommand(model.FirstName, model.LastName));
         }
         
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<CreateEditPersonOutputModel> Put(int id, [FromBody] PersonOutputModel model)
         {
+            return await mediator.Send( new EditPersonCommand(id, model.FirstName, model.LastName));
         }
         
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<bool> Delete(int id)
         {
+            return await mediator.Send(new DeletePersonCommand(id));
         }
     }
 }

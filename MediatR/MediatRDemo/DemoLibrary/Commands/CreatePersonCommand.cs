@@ -4,7 +4,7 @@ using MediatR;
 
 namespace DemoLibrary.Commands
 {
-    public record CreatePersonCommand(string FirstName, string LastName) : IRequest<CreatePersonOutputModel>;
+    public record CreatePersonCommand(string FirstName, string LastName) : IRequest<CreateEditPersonOutputModel>;
 
     //public class CreatePersonCommand : IRequest<CreatePersonOutputModel>
     //{        

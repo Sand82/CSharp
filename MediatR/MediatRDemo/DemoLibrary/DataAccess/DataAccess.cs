@@ -26,6 +26,12 @@ namespace DemoLibrary.DataAccess
             return persons;
         }
 
+        public PersonModel? FindById(int id)
+        {
+            return peoples
+                .FirstOrDefault(x => x.Id == id);
+        }
+
         public PersonModel Insert(string firstName, string lastName)
         {
             var person = new PersonModel();
@@ -36,6 +42,14 @@ namespace DemoLibrary.DataAccess
             peoples.Add(person);
 
             return person;
+        }
+
+        public PersonModel Edit(string firtName, string lastName, PersonModel editPerson)
+        {
+            editPerson.FirstName = firtName;
+            editPerson.LastName = lastName;
+
+            return editPerson;
         }
 
         public bool Delete(int id)
@@ -50,12 +64,6 @@ namespace DemoLibrary.DataAccess
             person.IsDelete = true;
 
             return true;
-        }
-
-        public PersonModel? FindById(int id)
-        {
-            return peoples
-                .FirstOrDefault(x => x.Id == id);
-        }
+        }        
     }
 }

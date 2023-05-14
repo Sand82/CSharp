@@ -1,6 +1,6 @@
 ﻿namespace DemoLibrary.Models.OutputModels
 {
-    public class CreatePersonOutputModel
+    public class CreateEditPersonOutputModel
     {
         public int Id { get; set; }
 

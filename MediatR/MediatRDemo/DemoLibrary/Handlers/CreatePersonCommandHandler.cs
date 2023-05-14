@@ -5,7 +5,7 @@ using MediatR;
 
 namespace DemoLibrary.Handlers
 {
-    public class CreatePersonCommandHandler : IRequestHandler<CreatePersonCommand, CreatePersonOutputModel>
+    public class CreatePersonCommandHandler : IRequestHandler<CreatePersonCommand, CreateEditPersonOutputModel>
     {
         private readonly IDataAccess data;
 
@@ -14,11 +14,11 @@ namespace DemoLibrary.Handlers
             this.data = data;
         }
 
-        public async Task<CreatePersonOutputModel> Handle(CreatePersonCommand request, CancellationToken cancellationToken)
+        public async Task<CreateEditPersonOutputModel> Handle(CreatePersonCommand request, CancellationToken cancellationToken)
         {
             var person = data.Insert(request.FirstName, request.LastName);
 
-            var model = new CreatePersonOutputModel() 
+            var model = new CreateEditPersonOutputModel() 
                 { Id = person.Id, FirstName = request.FirstName, LastName = request.LastName };
 
             return await Task.FromResult(model);

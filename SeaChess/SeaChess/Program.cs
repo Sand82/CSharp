@@ -6,18 +6,21 @@ namespace SeaChess
     {
 
         public static Board? board;
-        public static void Main(string[] args)
+        public static void Main()
         {
             board = new Board();
 
-            var playerOne = new Player("O", "Player One");
+            var playerOne = new Player("X", "Player One");
 
-            var playerTwo = new Player("X", "Player Two");
+            var playerTwo = new Player("O", "Player Two");
 
             var boardCounter = 1;
 
+            var IsHaveWinner = false;
+
             while (boardCounter < 10) 
             {
+                Console.Clear();
                 board.Print();
 
                 if (boardCounter % 2 == 0)
@@ -44,36 +47,51 @@ namespace SeaChess
                     var (haveWinner, winnerString) = board.ChekForWinner();
 
                     if (haveWinner) 
-                    { 
-                        var player = playerOne.Symbol == winnerString ? playerOne : playerTwo;
-
-                        PrintPlayerMessege($"We have winner {player.Name}!!!");
+                    {
+                        Console.Clear();
                         board.Print();
+                        var player = playerOne.Symbol == winnerString ? playerOne : playerTwo;
+                        IsHaveWinner = true;
+                        PrintPlayersMessege($"We have winner {player.Name}!!!");                        
                         break;
                     }
                 }
 
                 boardCounter++;                
-            }            
+            }
+
+            if (!IsHaveWinner)
+            {
+                PrintPlayersMessege("DRAW! No one winning!");
+            }
+
+            PrintPlayersMessege("For resrart the game tape Yes");
+
+            var restartGame = Console.ReadLine();
+
+            if (restartGame.ToLower() == "yes") 
+            {
+                Main();
+            }
         }
 
         public static bool PlayerTurn(Player player, string symbol)        
         {
-            PrintPlayersTurn(player);
+            PrintPlayersTurnMessage(player);
             var position = Console.ReadLine();
             var (isValidTurn, message) = board.ChangeBoard(position, symbol);
-            PrintPlayerMessege(message);
+            PrintPlayersMessege(message);
 
             return isValidTurn;
         }
 
-        public static void PrintPlayersTurn(Player player)
+        public static void PrintPlayersTurnMessage(Player player)
         {
             Console.WriteLine($"It is a {player.Name} turn");
             Console.WriteLine("Chose position:");
         }
 
-        public static void PrintPlayerMessege(string message)
+        public static void PrintPlayersMessege(string message)
         {
             Console.WriteLine(message);
         }

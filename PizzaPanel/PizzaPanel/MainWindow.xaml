@@ -1,0 +1,47 @@
+﻿<Window x:Class="PizzaPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PizzaPanel"
+        mc:Ignorable="d"
+        Title="PizzaPannel" Height="450" Width="800">
+    <StackPanel>
+        <Label FontWeight="Bold">Pizza topings</Label>
+        <CheckBox Name="allTopings" IsThreeState="True" Checked="AllChekedChanged" Unchecked="AllChekedChanged">Add all</CheckBox>
+        <StackPanel Margin="10">
+            <CheckBox Name="Salami" Checked="SingleCheckedChanged" Unchecked="SingleCheckedChanged">
+                <TextBlock>
+                    Salami <Run Foreground="Red" FontWeight="Bold">Spacy</Run>
+                </TextBlock>
+            </CheckBox>
+            <CheckBox Name="Mushrooms" Checked="SingleCheckedChanged" Unchecked="SingleCheckedChanged">Mushrooms</CheckBox>
+            <CheckBox Name="Mozzarella" Checked="SingleCheckedChanged" Unchecked="SingleCheckedChanged">Mozzarella</CheckBox>
+            
+        </StackPanel>
+        <Button Width="100" ToolTip="I'm a tooltip" Height="20">Click me</Button>
+        <StackPanel Margin="10">
+            <Label  FontSize="16" FontWeight="Bold" >
+               Are you like Pizza ?
+            </Label>
+            <RadioButton Margin="5" IsChecked="true">
+                <WrapPanel>
+                    <Rectangle Fill="Green" Width="16" Height="16"></Rectangle>
+                    <TextBlock Text="Yes" Foreground="Green" Margin="5, 0, 0, 0"></TextBlock>
+                </WrapPanel>                
+            </RadioButton>
+            <RadioButton Margin="5">
+                <WrapPanel>
+                    <Rectangle Fill="Red" Width="16" Height="16"></Rectangle>
+                    <TextBlock Text="No" Foreground="Red" Margin="5, 0, 0, 0"></TextBlock>
+                </WrapPanel>
+            </RadioButton>
+            <RadioButton Margin="5">
+                <WrapPanel>
+                    <Image Source="https://www.mabey.com/assets/img/mabey-logo.png" Width="70" Height="20"></Image>                    
+                </WrapPanel>
+            </RadioButton>
+        </StackPanel>
+        
+    </StackPanel>
+</Window>

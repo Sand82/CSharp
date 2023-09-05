@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SeaChess
+﻿namespace SeaChess
 {
     public class Board
     {
@@ -15,10 +9,10 @@ namespace SeaChess
         public Board()
         {
             board = new string[3, 3];
-            FillMatrix();
+            Fill();
         }
 
-        private void FillMatrix()
+        private void Fill()
         {
             int count = 1;
 
@@ -48,7 +42,7 @@ namespace SeaChess
             Console.WriteLine("     |     |     ");
         }
 
-        public (bool, string) ChangeBoard(string position ,string symbol)
+        public (bool, string) Change(string position ,string symbol)
         {
             var (row, col ) = GetPosition(position);           
 

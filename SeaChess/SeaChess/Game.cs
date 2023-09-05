@@ -1,6 +1,4 @@
-﻿using static SeaChess.Program;
-
-namespace SeaChess
+﻿namespace SeaChess
 {   
     public class Game
     {
@@ -17,9 +15,8 @@ namespace SeaChess
             this.playerTwo = playerTwo;
         }
 
-        public void Run()
-        {                    
-
+        public void RunPipe()
+        {                   
             var boardCounter = 1;
 
             var IsHaveWinner = false;
@@ -55,10 +52,8 @@ namespace SeaChess
                     if (haveWinner)
                     {
                         Console.Clear();
-                        board.Print();
-                        var player = playerOne.Symbol == winnerString ? playerOne : playerTwo;
+                        PrintWinner(winnerString);
                         IsHaveWinner = true;
-                        PrintPlayersMessege($"We have winner {player.Name}!!!");
                         break;
                     }
                 }
@@ -76,28 +71,34 @@ namespace SeaChess
             var restartGame = Console.ReadLine();
 
             if (restartGame.ToLower() == "yes")
-            {
-                ConfigurateGame();
+            {               new ConfigurateGame();
             }
         }
 
-        public bool PlayerTurn(Player player, string symbol)
+        private void PrintWinner(string winnerString)
+        {            
+            board.Print();
+            var player = playerOne.Symbol == winnerString ? playerOne : playerTwo;            
+            PrintPlayersMessege($"We have winner {player.Name}!!!");
+        }
+
+        private bool PlayerTurn(Player player, string symbol)
         {
             PrintPlayersTurnMessage(player);
             var position = Console.ReadLine();
-            var (isValidTurn, message) = board.ChangeBoard(position, symbol);
+            var (isValidTurn, message) = board.Change(position, symbol);
             PrintPlayersMessege(message);
 
             return isValidTurn;
         }
 
-        public void PrintPlayersTurnMessage(Player player)
+        private void PrintPlayersTurnMessage(Player player)
         {
             Console.WriteLine($"It is a {player.Name} turn");
             Console.WriteLine("Chose position:");
         }
 
-        public void PrintPlayersMessege(string message)
+        private void PrintPlayersMessege(string message)
         {
             Console.WriteLine(message);
         }

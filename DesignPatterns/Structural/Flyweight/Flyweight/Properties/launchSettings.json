@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Flyweight": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -39,7 +39,10 @@ namespace Program
 
                     string responce = "HTTP/1.1 200 OK" + newline +
                         "SandServer: 2023" + newline +
-                        "Content-Type: application/json; charSet=utf8" + newline +
+                        "Content-Type: text/plain; charSet=utf8" + newline +
+                        "Set-cookie: sid=2138544h34jh9fdfgkdj45kljljerp5" + newline + 
+                        "Set-cookie: lang=bg" + newline +
+                        //"Content-Disposition: attachment; fileName=sand.txt" + newline +
                         "ContentLenght: htmlLenght: " + htmlLenght + newline + newline
                         + html + newline;
 

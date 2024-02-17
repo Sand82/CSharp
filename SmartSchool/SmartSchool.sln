@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bff", "Bff", "{40ADEFED-F64C-4263-9375-F0FC223582EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSchool.Web", "SmartSchool.Web\SmartSchool.Web.csproj", "{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartSchool.Web", "SmartSchool.Web\SmartSchool.Web.csproj", "{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

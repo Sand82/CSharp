@@ -1,12 +1,15 @@
 ﻿using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Program
 {
     public class Program
     {
         private static string newline = "\r\n";
+
+        private static Dictionary<string, int> SesionCount = new ();
 
         public static async Task Main(string[] args)
         {
@@ -27,9 +30,28 @@ namespace Program
 
                     var byteData = await stream.ReadAsync(buffer, 0, buffer.Length);
 
-                    var data = Encoding.UTF8.GetString(buffer, 0, byteData);
+                    var requestSting = Encoding.UTF8.GetString(buffer, 0, byteData);
 
-                    Console.WriteLine(data);
+                    var sid = Guid.NewGuid().ToString();
+
+                    var match = Regex.Match( requestSting, @"sid=[^\n]*\n");
+
+                    if (match.Success)
+                    {
+                       var sidData = match.Value.Split("; ").ToArray();
+                       sid = sidData[0].Substring(4);
+                    }
+
+                    if (!SesionCount.ContainsKey(sid))
+                    {
+                        SesionCount.Add(sid, 0);
+                    }
+
+                    SesionCount[sid]++;
+
+                    Console.WriteLine(SesionCount[sid]);
+
+                    Console.WriteLine(requestSting);
 
                     Console.WriteLine(new string('=', 60));
 
@@ -40,7 +62,7 @@ namespace Program
                     string responce = "HTTP/1.1 200 OK" + newline +
                         "SandServer: 2023" + newline +
                         "Content-Type: text/plain; charSet=utf8" + newline +
-                        "Set-cookie: sid=2138544h34jh9fdfgkdj45kljljerp5" + newline + 
+                        $"Set-cookie: sid={sid}" + newline + 
                         "Set-cookie: lang=bg" + newline +
                         //"Content-Disposition: attachment; fileName=sand.txt" + newline +
                         "ContentLenght: htmlLenght: " + htmlLenght + newline + newline

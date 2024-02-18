@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\CSharp\\SmartSchool\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\extensions\\frameworkextensions\\webapplicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\extensions\\frameworkextensions\\webapplicationbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\features\\iam\\account\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\account\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -54,11 +66,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartSchool.Web\\appsettings.json",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\appsettings.json",
+              "RelativeToolTip": "SmartSchool.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-18T19:52:18.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebApplicationBuilderExtensions.cs",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Extensions\\FrameworkExtensions\\WebApplicationBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "SmartSchool.Web\\Extensions\\FrameworkExtensions\\WebApplicationBuilderExtensions.cs",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Extensions\\FrameworkExtensions\\WebApplicationBuilderExtensions.cs",
+              "RelativeToolTip": "SmartSchool.Web\\Extensions\\FrameworkExtensions\\WebApplicationBuilderExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T19:49:29.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "SmartSchool.Web\\Data\\AppDBContext.cs",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "SmartSchool.Web\\Data\\AppDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T19:46:25.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Program.cs",
               "RelativeDocumentMoniker": "SmartSchool.Web\\Program.cs",
@@ -71,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.AppHost\\Program.cs",
               "RelativeDocumentMoniker": "SmartSchool.AppHost\\Program.cs",
@@ -84,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "SmartSchool.ServiceDefaults",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.ServiceDefaults\\SmartSchool.ServiceDefaults.csproj",
               "RelativeDocumentMoniker": "SmartSchool.ServiceDefaults\\SmartSchool.ServiceDefaults.csproj",
@@ -97,20 +148,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Login.razor",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Account\\Login.razor",
               "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Account\\Login.razor",
               "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Account\\Login.razor",
               "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Account\\Login.razor",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-02-18T17:23:11.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "_imports.razor",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\_imports.razor",
               "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\_imports.razor",
@@ -123,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "SmartSchool.Web\\Components\\Layout\\MainLayout.razor",
@@ -136,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "SmartSchool.Web\\Components\\_Imports.razor",
@@ -149,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\App.razor",
               "RelativeDocumentMoniker": "SmartSchool.Web\\Components\\App.razor",
@@ -162,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "SmartSchool.Web\\Components\\Routes.razor",
@@ -175,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AuthLayout.razor.css",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Layout\\AuthLayout.razor.css",
               "RelativeDocumentMoniker": "SmartSchool.Web\\Components\\Layout\\AuthLayout.razor.css",
@@ -188,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "AuthLayout.razor",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Layout\\AuthLayout.razor",
               "RelativeDocumentMoniker": "SmartSchool.Web\\Components\\Layout\\AuthLayout.razor",

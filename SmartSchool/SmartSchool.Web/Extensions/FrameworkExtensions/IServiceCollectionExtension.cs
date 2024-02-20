@@ -19,6 +19,12 @@ namespace SmartSchool.Web.Extensions.FrameworkExtensions
             })
                 .AddIdentityCookies();
 
+            services.AddScoped<CookieEvents>();
+            services.ConfigureApplicationCookie( options =>
+            {
+                options.EventsType = typeof(CookieEvents);  
+            });
+
             return services;
         }
     }

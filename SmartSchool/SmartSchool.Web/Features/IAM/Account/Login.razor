@@ -1,5 +1,6 @@
 ﻿@using Microsoft.AspNetCore.Authorization
 @using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Identity
 @using SmartSchool.Web.Components.Layout
 @using System.ComponentModel.DataAnnotations
 
@@ -8,6 +9,10 @@
 @attribute [AllowAnonymous]
 
 @inject NavigationManager navigation
+@inject UserManager<IdentityUser> userManager
+@inject IUserStore<IdentityUser> userStore;
+@inject RoleManager<IdentityRole> roleManager;
+@inject SignInManager<IdentityUser> signInManager;
 
 <EditForm method="post" Model="LoginForm" OnValidSubmit="PerformLogin" FormName="login">
     <hr />
@@ -22,7 +27,7 @@
         <InputText type="password" class="form-control" @bind-Value="LoginForm.Password" required />
 
         <div class="text-center pt-1 mb-5 pb-1">
-            <button class="btn tbn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit" >Login</button>
+            <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="submit" >Login</button>
 
         </div>
 
@@ -36,7 +41,20 @@
 
     public async Task PerformLogin (EditContext editContext)
     {
-       navigation.NavigateTo("/");
+        var identity = new IdentityUser();
+        var setUsernameResult = await userManager.SetUserNameAsync(identity, LoginForm.Email);
+
+        var emailStore = (IUserEmailStore<IdentityUser>)userStore;
+        await emailStore.SetEmailAsync(identity, LoginForm.Email, CancellationToken.None);
+
+        var createdIdentity = await userManager.CreateAsync(identity, LoginForm.Password);
+
+        var superAdminRole = new IdentityRole("Superadmin");
+        var roleResult =await roleManager.CreateAsync(superAdminRole);
+
+        var assignRoleResult = await userManager.AddToRoleAsync(identity, "Superadmin");
+
+        navigation.NavigateTo("/");
     }
 
     public class LoginModel

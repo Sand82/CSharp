@@ -1,6 +1,9 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@inject AuthenticationStateProvider authState
+
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/">Classwave</a>
+        <a class="navbar-brand" href="/">SmartSchool</a>
     </div>
 </div>
 
@@ -10,8 +13,13 @@
     <nav class="flex-column">
         <AuthorizeView Roles="Superadmin">
             <Authorized>
-                <IamNavLink />
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="iam/roles" Match="NavLinkMatch.All">
+                        <span class="bi" aria-hidden="true"></span>Roles
+                    </NavLink>
+                </div>
+               @* <IamNavLink /> *@
             </Authorized>
-        </AuthorizeView>
+        </AuthorizeView>       
     </nav>
 </div>

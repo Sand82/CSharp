@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\roles\\addrolemodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\components\\layout\\iamnavlink.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\components\\layout\\iamnavlink.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\features\\iam\\roles\\roleslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\roles\\roleslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -34,30 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IamNavLink.razor",
-              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Layout\\IamNavLink.razor",
-              "RelativeDocumentMoniker": "SmartSchool.Web\\Components\\Layout\\IamNavLink.razor",
-              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Layout\\IamNavLink.razor",
-              "RelativeToolTip": "SmartSchool.Web\\Components\\Layout\\IamNavLink.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-25T20:51:06.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "RolesList.razor",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Roles\\RolesList.razor",
               "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Roles\\RolesList.razor",
               "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Roles\\RolesList.razor",
               "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Roles\\RolesList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-02-25T20:04:56.983Z",
               "EditorCaption": ""
@@ -70,14 +53,14 @@
               "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Roles\\AddRoleModal.razor",
               "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Roles\\AddRoleModal.razor",
               "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Roles\\AddRoleModal.razor",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAABwAAAAKAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-02-25T20:02:01.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "SmartSchool.Web\\Components\\Layout\\NavMenu.razor",
@@ -89,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "NavMenu.razor.css",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Layout\\NavMenu.razor.css",
               "RelativeDocumentMoniker": "SmartSchool.Web\\Components\\Layout\\NavMenu.razor.css",
@@ -101,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "SmartSchool.Web\\Components\\Routes.razor",

@@ -1,7 +1,13 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.EntityFrameworkCore
+@using SmartSchool.Web.Data
 
-<div class="modal fade" id="error-modal" tabindex="-1" role="dialog" aria-hidden="true">
+@inject IServiceScopeFactory serviceScopeFactory
+@inject RoleManager<IdentityRole> roleManager;
+
+<div class="modal fade" id="error-modal" role="dialog" aria-hidden="true"
+    tabindex="-1">
     <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 500px">
         <div class="modal-content position-relative">
             <div class="position-absolute top-0 end-0 mt-2 me-2 z-1">
@@ -39,6 +45,13 @@
 
     public async Task SubmitNewRole()
     {
+        using var scope = serviceScopeFactory.CreateScope();
 
+        var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+
+        var role = new IdentityRole(NewRoleName);
+        var result = await roleManager.CreateAsync(role);
+        await OnRoleAdded.InvokeAsync(role);
+        NewRoleName = string.Empty;
     }   
 }

@@ -1,102 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\CSharp\\SmartSchool\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\features\\iam\\roles\\addrolemodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\roles\\addrolemodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\features\\iam\\roles\\roleslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\roles\\roleslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RolesList.razor",
-              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Roles\\RolesList.razor",
-              "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Roles\\RolesList.razor",
-              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Roles\\RolesList.razor",
-              "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Roles\\RolesList.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-25T20:04:56.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddRoleModal.razor",
-              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Roles\\AddRoleModal.razor",
-              "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Roles\\AddRoleModal.razor",
-              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Roles\\AddRoleModal.razor",
-              "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Roles\\AddRoleModal.razor",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-25T20:02:01.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "SmartSchool.Web\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "SmartSchool.Web\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-25T19:03:53.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NavMenu.razor.css",
-              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Layout\\NavMenu.razor.css",
-              "RelativeDocumentMoniker": "SmartSchool.Web\\Components\\Layout\\NavMenu.razor.css",
-              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Layout\\NavMenu.razor.css",
-              "RelativeToolTip": "SmartSchool.Web\\Components\\Layout\\NavMenu.razor.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-02-25T19:03:51.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Routes.razor",
-              "RelativeDocumentMoniker": "SmartSchool.Web\\Components\\Routes.razor",
-              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Routes.razor",
-              "RelativeToolTip": "SmartSchool.Web\\Components\\Routes.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-25T19:03:28.893Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

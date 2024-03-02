@@ -4,6 +4,11 @@ namespace SmartSchool.Students.Domain.Models
 {
     public class Student
     {
+        public Student()
+        {
+            Relatives = new List<Relative>();
+        }
+
         #region Constructors and properties
         public int Id { get; set; }
             
@@ -13,7 +18,7 @@ namespace SmartSchool.Students.Domain.Models
         
         public required string LastName { get; set; }
         
-        public required string Email { get; set; }
+        public string? Email { get; set; }
 
         public DateOnly DateOfBirth { get; set; }
 
@@ -22,9 +27,21 @@ namespace SmartSchool.Students.Domain.Models
         public string? PhoneNumber { get; set; }
 
         public Address? Address { get; set; }
+
+        public ICollection<Relative> Relatives { get; set; }
         #endregion
 
         #region Public behavior
+        public static Student Create(string rollNumber, string firstName, string lastName, DateOnly dateOfBirth)
+        {
+            return new Student
+            {
+                RollNumber = rollNumber,
+                FirstName = firstName,
+                LastName = lastName,
+                DateOfBirth = dateOfBirth
+            };
+        }
         #endregion
 
         #region Private behavior
@@ -41,6 +58,7 @@ namespace SmartSchool.Students.Domain.Models
 
             return age;
         }
+         
         #endregion
     }
 }

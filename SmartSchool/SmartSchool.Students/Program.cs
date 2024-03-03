@@ -14,6 +14,10 @@ builder.Services.AddSwaggerGen();
 
 var cs = builder.Configuration.GetConnectionString("Default");
 builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(cs));
+builder.Services.AddMediatR(cfr =>
+{
+    cfr.RegisterServicesFromAssemblies(typeof(Program).Assembly);
+});
 
 var app = builder.Build();
 

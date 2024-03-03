@@ -3,7 +3,7 @@
 namespace SmartSchool.Students.Students
 {
     public record StudentBasicInfo(int StudentId, string RollNumber, 
-        string FirstName, string LastName, DateOnly DateOfBirth, int Age)
+        string FirstName, string LastName, DateTime DateOfBirth, int Age)
     {
         public static StudentBasicInfo FromStudent(Student student)
             => new StudentBasicInfo(student.Id, 

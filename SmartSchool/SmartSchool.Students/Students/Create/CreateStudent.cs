@@ -11,16 +11,12 @@ namespace SmartSchool.Students.Students.Create
     {
         public async Task<StudentBasicInfo> Handle(CreateStudent request, CancellationToken cancellationToken)
         {
-            var student = Student.Create(
-                request.NewStudent.RollNumber, 
-                request.NewStudent.FirstName, 
-                request.NewStudent.LastName,
-                request.NewStudent.DateOfBirth);
+            var student = Student.Create(request.NewStudent.RollNumber, request.NewStudent.FirstName, request.NewStudent.LastName, request.NewStudent.DateOfBirth);
 
             contect.Students.Add(student);
             await contect.SaveChangesAsync(cancellationToken);
 
-            
+            return StudentBasicInfo.FromStudent(student);
         }
     }
 

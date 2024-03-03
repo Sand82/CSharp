@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\CSharp\\SmartSchool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|c:\\csharp\\smartschool\\smartschool.students\\students\\studentbasicinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|solutionrelative:smartschool.students\\students\\studentbasicinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|c:\\csharp\\smartschool\\smartschool.students\\students\\create\\createstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|solutionrelative:smartschool.students\\students\\create\\createstudentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|solutionrelative:smartschool.students\\students\\create\\createstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|c:\\csharp\\smartschool\\smartschool.students\\students\\studentsbasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|solutionrelative:smartschool.students\\students\\studentsbasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|c:\\csharp\\smartschool\\smartschool.students\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|solutionrelative:smartschool.students\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentBasicInfo.cs",
-              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\StudentBasicInfo.cs",
-              "RelativeDocumentMoniker": "SmartSchool.Students\\Students\\StudentBasicInfo.cs",
-              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\StudentBasicInfo.cs",
-              "RelativeToolTip": "SmartSchool.Students\\Students\\StudentBasicInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T09:47:04.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentsBaseController.cs",
-              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\StudentsBaseController.cs",
-              "RelativeDocumentMoniker": "SmartSchool.Students\\Students\\StudentsBaseController.cs",
-              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\StudentsBaseController.cs",
-              "RelativeToolTip": "SmartSchool.Students\\Students\\StudentsBaseController.cs",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SmartSchool.Students\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "SmartSchool.Students\\Data\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T09:51:25.015Z",
+              "WhenOpened": "2024-03-03T20:54:48.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CreateStudent.cs",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\Create\\CreateStudent.cs",
               "RelativeDocumentMoniker": "SmartSchool.Students\\Students\\Create\\CreateStudent.cs",
               "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\Create\\CreateStudent.cs",
               "RelativeToolTip": "SmartSchool.Students\\Students\\Create\\CreateStudent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAlwA0AAACDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T09:40:04.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CreateStudentController.cs",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\Create\\CreateStudentController.cs",
               "RelativeDocumentMoniker": "SmartSchool.Students\\Students\\Create\\CreateStudentController.cs",
               "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\Create\\CreateStudentController.cs",
               "RelativeToolTip": "SmartSchool.Students\\Students\\Create\\CreateStudentController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T09:34:42.935Z",
               "EditorCaption": ""

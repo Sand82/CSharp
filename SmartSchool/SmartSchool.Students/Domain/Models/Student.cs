@@ -20,7 +20,7 @@ namespace SmartSchool.Students.Domain.Models
         
         public string? Email { get; set; }
 
-        public DateOnly DateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
 
         public int Age => CalculateAge();
 
@@ -32,7 +32,7 @@ namespace SmartSchool.Students.Domain.Models
         #endregion
 
         #region Public behavior
-        public static Student Create(string rollNumber, string firstName, string lastName, DateOnly dateOfBirth)
+        public static Student Create(string rollNumber, string firstName, string lastName, DateTime dateOfBirth)
         {
             return new Student
             {

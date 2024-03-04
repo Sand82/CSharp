@@ -64,9 +64,7 @@
         // await userManager.AddClaimsAsync(identity, claims);
 
         // var assignRoleResult = await userManager.AddToRoleAsync(identity, superAdmin);
-
-        
-
+               
         await signInManager.PasswordSignInAsync(LoginForm.Email, LoginForm.Password, true, lockoutOnFailure: false);
 
         navigation.NavigateTo("/");

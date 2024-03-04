@@ -1,9 +1,10 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-builder.AddProject<Projects.SmartSchool_Web>("web");
+var students = builder.AddProject<Projects.SmartSchool_Students>("smartschool.students");
 
-builder.AddProject<Projects.SmartSchool_Students>("smartschool.students");
-
-builder.AddProject<Projects.SmartSchool_Bff>("smartschool.bff");
+var bff = builder.AddProject<Projects.SmartSchool_Bff>("smartschool.bff")
+    .WithReference(students);
+builder.AddProject<Projects.SmartSchool_Web>("web")
+    .WithReference(bff);
 
 builder.Build().Run();

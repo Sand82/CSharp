@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using SmartSchool.Web.Services.BffApiClient
+
+@inject IBffApiClient bffApiClient
+
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+
+<div class="row">
+    <div class="col col-6">
+        <button class="btn btn-primary" @onclick="@(async () => await CreateStudent())">Create Student </button>
+    </div>
+    <div class="row">
+        <div class="col col-12">
+            <p>@NewStudent</p>
+        </div>
+    </div>
+</div>
+
+@code {
+
+    private string NewStudent = string.Empty;
+
+    private async Task CreateStudent()
+    {
+        var rollNumber = Guid.NewGuid().ToString();
+        var dateOfBirth = DateTime.Now.AddYears(-20);
+
+        var newStudent = new StudentCreate(rollNumber, "Sand", "Stef", dateOfBirth);
+        var result = await bffApiClient.CreateStudentAsync(newStudent);
+        NewStudent = $"RollNumber: {result.RollNumber}, \n"
+        + $"Student ID: {result.Id}\n"
+        + $"First Name: {result.FirstName}\n"
+        + $"Last Name: {result.LastName}\n"
+        + $"Age: {result.Age}\n";
+    }
+}

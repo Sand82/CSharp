@@ -1,5 +1,7 @@
+using Refit;
 using SmartSchool.Web.Components;
 using SmartSchool.Web.Extensions.FrameworkExtensions;
+using SmartSchool.Web.Services.BffApiClient;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +12,10 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 builder.ConfigureIdentity();
-builder.Services.ConfigureAuthentication();
+builder.Services.ConfigureAuthentication(); 
+
+builder.Services.AddRefitClient<IBffApiClient>()
+    .ConfigureHttpClient(c => c.BaseAddress = new Uri("http://smartschool.bff"));
 
 var app = builder.Build();
 

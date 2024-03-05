@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\CSharp\\SmartSchool\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\features\\iam\\students\\studentslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\students\\studentslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\features\\iam\\students\\createstudent\\createstudentbutton.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\students\\createstudent\\createstudentbutton.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\features\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\components\\layout\\iamnavlink.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\components\\layout\\iamnavlink.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\services\\bffapiclient\\apimodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\services\\bffapiclient\\apimodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\services\\bffapiclient\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\services\\bffapiclient\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{68C70BAE-3ED2-4C10-BE89-A19C7B49AED8}|SmartSchool.Bff\\SmartSchool.Bff.csproj|c:\\csharp\\smartschool\\smartschool.bff\\students\\studentendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68C70BAE-3ED2-4C10-BE89-A19C7B49AED8}|SmartSchool.Bff\\SmartSchool.Bff.csproj|solutionrelative:smartschool.bff\\students\\studentendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,11 +42,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IamNavLink.razor",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Layout\\IamNavLink.razor",
+              "RelativeDocumentMoniker": "SmartSchool.Web\\Components\\Layout\\IamNavLink.razor",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Components\\Layout\\IamNavLink.razor",
+              "RelativeToolTip": "SmartSchool.Web\\Components\\Layout\\IamNavLink.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T20:49:19.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_imports.razor",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\_imports.razor",
+              "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\_imports.razor",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\_imports.razor",
+              "RelativeToolTip": "SmartSchool.Web\\Features\\_imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T20:47:46.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CreateStudentButton.razor",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\CreateStudent\\CreateStudentButton.razor",
+              "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Students\\CreateStudent\\CreateStudentButton.razor",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\CreateStudent\\CreateStudentButton.razor",
+              "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Students\\CreateStudent\\CreateStudentButton.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T20:18:41.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentsList.razor",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\StudentsList.razor",
+              "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Students\\StudentsList.razor",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\StudentsList.razor*",
+              "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Students\\StudentsList.razor*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T20:15:10.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Interface.cs",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Services\\BffApiClient\\Interface.cs",
+              "RelativeDocumentMoniker": "SmartSchool.Web\\Services\\BffApiClient\\Interface.cs",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Services\\BffApiClient\\Interface.cs",
+              "RelativeToolTip": "SmartSchool.Web\\Services\\BffApiClient\\Interface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T20:04:10.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiModels.cs",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Services\\BffApiClient\\ApiModels.cs",
+              "RelativeDocumentMoniker": "SmartSchool.Web\\Services\\BffApiClient\\ApiModels.cs",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Services\\BffApiClient\\ApiModels.cs",
+              "RelativeToolTip": "SmartSchool.Web\\Services\\BffApiClient\\ApiModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T20:00:51.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IStudentsApiClient.cs",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Bff\\ApiClients\\IStudentsApiClient.cs",
               "RelativeDocumentMoniker": "SmartSchool.Bff\\ApiClients\\IStudentsApiClient.cs",
@@ -35,13 +137,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "StudentEndpoints.cs",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Bff\\Students\\StudentEndpoints.cs",
               "RelativeDocumentMoniker": "SmartSchool.Bff\\Students\\StudentEndpoints.cs",
               "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Bff\\Students\\StudentEndpoints.cs",
               "RelativeToolTip": "SmartSchool.Bff\\Students\\StudentEndpoints.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAATAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T20:02:16.526Z",
               "EditorCaption": ""

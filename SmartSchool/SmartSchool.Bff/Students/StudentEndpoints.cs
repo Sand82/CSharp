@@ -1,12 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SmartSchool.Bff.ApiClients;
-using System.Runtime.InteropServices;
 
 namespace SmartSchool.Bff.Students
 {
     public static class StudentEndpoints
     {
-        public static async IEndpointRouteBuilder AddStudentEndpoints(this IEndpointRouteBuilder app)
+        public static IEndpointRouteBuilder AddStudentEndpoints(this IEndpointRouteBuilder app)
         {
             var students = app.MapGroup("/students");            
 

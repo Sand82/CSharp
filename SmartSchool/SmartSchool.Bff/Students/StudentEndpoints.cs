@@ -9,9 +9,11 @@ namespace SmartSchool.Bff.Students
         {
             var students = app.MapGroup("/students");            
 
-            students.MapPost("/create", async ([FromBody]CreateStudent newStudent, 
+            students.MapPost("/", async ([FromBody]CreateStudent newStudent, 
                 [FromServices] IStudentsApiClient studentClient) 
-                => await CreateStudent(studentClient, newStudent));
+                => await CreateStudent(studentClient, newStudent))
+                .WithName("CreateStudent")
+                .Produces(200, typeof(StudentBaseInfo));
 
             return app;
         }

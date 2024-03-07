@@ -15,7 +15,7 @@ builder.ConfigureIdentity();
 builder.Services.ConfigureAuthentication(); 
 
 builder.Services.AddRefitClient<IBffApiClient>()
-    .ConfigureHttpClient(c => c.BaseAddress = new Uri("http://smartschool.bff"));
+    .ConfigureHttpClient(c => c.BaseAddress = new Uri("http://bff"));
 
 var app = builder.Build();
 

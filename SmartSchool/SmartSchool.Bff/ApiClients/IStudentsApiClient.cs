@@ -10,4 +10,4 @@ namespace SmartSchool.Bff.ApiClients
 }
 
 public record CreateStudent(string RollNumber, string FirstName, string LastName, DateTime DateOfBirth);
-public record StudentBaseInfo(int Id, string RoleNumber, string FirstName, string LastName, string Email ,DateTime DateOfBirth, int Age);
+public record StudentBaseInfo(int StudentId, string RoleNumber, string FirstName, string LastName, string Email ,DateTime DateOfBirth, int Age);

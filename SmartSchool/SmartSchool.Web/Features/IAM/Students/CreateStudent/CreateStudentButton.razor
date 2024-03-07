@@ -28,7 +28,7 @@
         var newStudent = new StudentCreate(rollNumber, "Sand", "Stef", dateOfBirth);
         var result = await bffApiClient.CreateStudentAsync(newStudent);
         NewStudent = $"RollNumber: {result.RollNumber}, \n"
-        + $"Student ID: {result.Id}\n"
+        + $"Student ID: {result.StudentId}\n"
         + $"First Name: {result.FirstName}\n"
         + $"Last Name: {result.LastName}\n"
         + $"Age: {result.Age}\n";

@@ -1,8 +1,69 @@
 ﻿@using SmartSchool.Web.Features.IAM.Students.CreateStudent
+@using SmartSchool.Web.Services.BffApiClient
+@attribute [StreamRendering(true)]
+
 @page "/iam/students"
 
-<CreateStudentButton/>
+
+@if(IsLoading)
+{
+    <p>Loading...</p>
+} 
+else
+{
+    <div class="row mb-5">
+        <div class="col-6">
+            <CreateStudentButton />
+        </div>
+    </div>
+   <div class="row">
+       <div class="col-12">
+           <table class="table">
+               <thead>
+                   <tr>
+                        <th>Roll Number</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                        <th>Action</th>
+                   </tr>
+               </thead>
+               <tbody>
+                   @foreach (var student in Students)
+                    {
+                        <tr>
+                            <th>@student.RollNumber</th>
+                            <th>@student.FirstName</th>
+                            <th>@student.LastName</th>
+                            <th>@student.Email</th>
+                            <th>@student.Age</th>
+                            <th>
+                                <div class="row">
+                                    <div class="col-6">                                       
+                                        <button class="bnt bnt-info">Manage</button>
+                                    </div>
+                                    <div class="col-6">
+                                        <button class="bnt bnt-danger">Delete</button>
+                                    </div>
+                                </div>                                
+                            </th>
+                        </tr>
+                    }
+               </tbody>
+           </table>
+       </div>
+   </div>
+}
 
 @code {
 
+    private bool IsLoading { get; set; } = true;
+    private List<StudentBasicInfo> Students { get; set; } = new List<StudentBasicInfo>();
+
+    protected override Task OnInitializedAsync()
+    {
+        IsLoading = false;
+        return base.OnInitializedAsync();
+    }
 }

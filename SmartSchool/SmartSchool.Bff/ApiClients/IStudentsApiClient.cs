@@ -6,8 +6,12 @@ namespace SmartSchool.Bff.ApiClients
     {
         [Post("/students")]
         Task<StudentBaseInfo> CreateStudent([Body] CreateStudent newStudent);
+
+        [Get("/students")]
+        Task<StudentBaseInfo[]> ListStudents([Query] PagingOptions paging);
     }
 }
 
 public record CreateStudent(string RollNumber, string FirstName, string LastName, DateTime DateOfBirth);
 public record StudentBaseInfo(int StudentId, string RoleNumber, string FirstName, string LastName, string Email ,DateTime DateOfBirth, int Age);
+public record PagingOptions(int PageNumber = 1, int PageSize = 10);

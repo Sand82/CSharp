@@ -3,6 +3,7 @@
 @attribute [StreamRendering(true)]
 
 @page "/iam/students"
+@inject IBffApiClient bffApiClient
 
 
 @if(IsLoading)
@@ -31,25 +32,25 @@ else
                </thead>
                <tbody>
                    @foreach (var student in Students)
-                    {
-                        <tr>
-                            <th>@student.RollNumber</th>
-                            <th>@student.FirstName</th>
-                            <th>@student.LastName</th>
-                            <th>@student.Email</th>
-                            <th>@student.Age</th>
-                            <th>
-                                <div class="row">
-                                    <div class="col-6">                                       
-                                        <button class="bnt bnt-info">Manage</button>
-                                    </div>
-                                    <div class="col-6">
-                                        <button class="bnt bnt-danger">Delete</button>
-                                    </div>
-                                </div>                                
-                            </th>
-                        </tr>
-                    }
+                   {
+                       <tr>
+                           <th>@student.RollNumber</th>
+                           <th>@student.FirstName</th>
+                           <th>@student.LastName</th>
+                           <th>@student.Email</th>
+                           <th>@student.Age</th>
+                           <th>
+                               <div class="row">
+                                   <div class="col-6">                                       
+                                       <button class="bnt bnt-info">Manage</button>
+                                   </div>
+                                   <div class="col-6">
+                                       <button class="bnt bnt-danger">Delete</button>
+                                   </div>
+                               </div>                                
+                           </th>
+                       </tr>
+                   }
                </tbody>
            </table>
        </div>
@@ -61,9 +62,11 @@ else
     private bool IsLoading { get; set; } = true;
     private List<StudentBasicInfo> Students { get; set; } = new List<StudentBasicInfo>();
 
-    protected override Task OnInitializedAsync()
+    protected override async Task OnInitializedAsync()
     {
-        IsLoading = false;
-        return base.OnInitializedAsync();
+        var paging = new PagingOptions(1, 10);
+        var result = await bffApiClient.ListStudentsAsync(paging);
+        Students = result.ToList();
+        IsLoading = false;       
     }
 }

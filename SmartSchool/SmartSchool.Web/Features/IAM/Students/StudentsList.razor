@@ -15,6 +15,7 @@ else
     <div class="row mb-5">
         <div class="col-6">
             <CreateStudentButton />
+            <CreateStudentModal OnStudentCreated="AddStudentToList" />
         </div>
     </div>
    <div class="row">
@@ -60,7 +61,7 @@ else
 @code {
 
     private bool IsLoading { get; set; } = true;
-    private List<StudentBasicInfo> Students { get; set; } = new List<StudentBasicInfo>();
+    private List<StudentBasicInfo> Students { get; set; } = new List<StudentBasicInfo>();    
 
     protected override async Task OnInitializedAsync()
     {
@@ -68,5 +69,10 @@ else
         var result = await bffApiClient.ListStudentsAsync(paging);
         Students = result.ToList();
         IsLoading = false;       
+    }
+
+    private void AddStudentToList(StudentBasicInfo newStudent)
+    {
+        Students.Add(newStudent);
     }
 }

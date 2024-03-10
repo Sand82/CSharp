@@ -32,13 +32,14 @@ namespace SmartSchool.Students.Domain.Models
         #endregion
 
         #region Public behavior
-        public static Student Create(string rollNumber, string firstName, string lastName, DateTime dateOfBirth)
+        public static Student Create(string rollNumber, string firstName, string lastName, string email, DateTime dateOfBirth)
         {
             return new Student
             {
                 RollNumber = rollNumber,
                 FirstName = firstName,
                 LastName = lastName,
+                Email = email,
                 DateOfBirth = dateOfBirth
             };
         }

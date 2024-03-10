@@ -16,5 +16,4 @@ namespace SmartSchool.Students.Students.Create
     }    
 }
 
-public record NewStudent(string RollNumber, 
-    string FirstName, string LastName, DateTime DateOfBirth);
+public record NewStudent(string RollNumber, string FirstName, string LastName, string Email, DateTime DateOfBirth);

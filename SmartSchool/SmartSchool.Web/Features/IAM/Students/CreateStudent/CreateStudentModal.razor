@@ -1,0 +1,97 @@
+﻿@using Microsoft.AspNetCore.Components.Forms
+@using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
+@using SmartSchool.Web.Services.BffApiClient
+
+@inject NavigationManager navigation
+@inject UserManager<IdentityUser> userManager
+@inject IUserStore<IdentityUser> userStore;
+@inject RoleManager<IdentityRole> roleManager;
+@inject IBffApiClient apiClient;
+
+<div class="modal fade" id="createStudentModel" tabindex="-1">
+    <div class="modal-dialog modal-lg d-flex align-content-center justify-content-center">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4>
+                    Add new student
+                </h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <EditForm Model="Input" OnValidSubmit="SubmitForm" FormName="createStudent">
+                    <div class="row">
+                        <AntiforgeryToken/>
+                        <DataAnnotationsValidator/>
+                        <ValidationSummary/>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+
+    private StudentCreateViewModel Input { get; set; } = new();
+
+    [Parameter]
+    public EventCallback<StudentBasicInfo> OnStudentCreated { get; set; }
+
+    private async Task SubmitForm()
+    {
+        var identity = await CreateIdentity(Input);
+
+        var newStudent = new StudentCreate(identity.Id, Input.FirstName!, Input.LastName!, Input.Email!, Input.DateOfBirth);
+
+        var createdStudent = await apiClient.CreateStudentAsync(newStudent);
+
+        Input = new();
+
+        await OnStudentCreated.InvokeAsync(createdStudent);
+    }
+
+    private async Task<IdentityUser> CreateIdentity(StudentCreateViewModel student)
+    {
+        var identity = new IdentityUser();
+        var setUsernameResult = await userManager.SetUserNameAsync(identity, student.Email);
+
+        var emailStore = (IUserEmailStore<IdentityUser>)userStore;
+        await emailStore.SetEmailAsync(identity, student.Email, CancellationToken.None);
+
+        var createdIdentity = await userManager.CreateAsync(identity, student.Password!);       
+
+        var claims = new List<Claim>
+        {
+            new("firstName", student.FirstName!),
+            new("lastName", student.LastName!)
+        };
+
+        await userManager.AddClaimsAsync(identity, claims);
+         
+        var studentRole = await roleManager.FindByNameAsync("Student");        
+
+        await userManager.AddToRoleAsync(identity, studentRole!.Name!);
+
+        return identity;
+    }
+
+    public class StudentCreateViewModel
+    {
+        [Required]
+        public string? FirstName { get; set; }
+
+        [Required]
+        public string? LastName { get; set; }
+
+        [Required]
+        public string? Email { get; set; }
+
+        [Required]
+        public string? Password { get; set; }
+
+        [Required]
+        public DateTime DateOfBirth { get; set; }
+    }    
+}

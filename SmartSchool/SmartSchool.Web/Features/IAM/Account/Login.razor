@@ -43,28 +43,7 @@
     private const string superAdmin = "Superadmin";   
 
     public async Task PerformLogin (EditContext editContext)
-    {
-        // var identity = new IdentityUser();
-        // var setUsernameResult = await userManager.SetUserNameAsync(identity, LoginForm.Email);
-
-        // var emailStore = (IUserEmailStore<IdentityUser>)userStore;
-        // await emailStore.SetEmailAsync(identity, LoginForm.Email, CancellationToken.None);
-
-        // var createdIdentity = await userManager.CreateAsync(identity, LoginForm.Password);
-
-        // var superAdminRole = new IdentityRole(superAdmin);
-        // var roleResult =await roleManager.CreateAsync(superAdminRole);
-
-        // var claims = new List<Claim>
-        // {
-        //     new("firstName", "Sand"),
-        //     new("lastName", "Stefanov")
-        // };
-
-        // await userManager.AddClaimsAsync(identity, claims);
-
-        // var assignRoleResult = await userManager.AddToRoleAsync(identity, superAdmin);
-               
+    {        
         await signInManager.PasswordSignInAsync(LoginForm.Email, LoginForm.Password, true, lockoutOnFailure: false);
 
         navigation.NavigateTo("/");

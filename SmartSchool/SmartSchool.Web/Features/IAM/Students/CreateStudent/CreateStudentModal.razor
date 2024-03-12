@@ -17,12 +17,11 @@
                 <h4>
                     Add new student
                 </h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
                 <EditForm Model="Input" OnValidSubmit="SubmitForm" FormName="createStudent">
-                    <div class="row">
-                        <AntiforgeryToken/>
+                    <div class="row">                        
                         <DataAnnotationsValidator/>
                         <ValidationSummary/>
                     </div>
@@ -38,13 +37,13 @@
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <div class="col-3">
+                            <div class="mb-3">
                                 <label for="email" class="form-label">Email:</label>
                                 <InputText @bind-Value="Input.Email" class="form-control" id="email" placeholder="email@example.com" />
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="col-3">
+                            <div class="mb-3">
                                 <label for="password" class="form-label">Password:</label>
                                 <InputText type="password" @bind-Value="Input.Password" class="form-control" id="password" />
                             </div>
@@ -52,14 +51,14 @@
                     </div>
                     <div class="row">
                         <div class="col-6">
-                            <div class="col-3">
+                            <div class="mb-3">
                                 <label for="dob" class="form-label">Date of birth:</label>
                                 <InputDate TValue="DateTime" @bind-Value="Input.DateOfBirth" class="form-control" id="dob"/>
                             </div>
                         </div>
                         <div class="col-6">
-                            <button type="button" class="btn-link btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="submit" class="btn-link btn-success">Save</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-success">Save</button>
                         </div>
                     </div>
                 </EditForm>
@@ -70,7 +69,8 @@
 
 @code {
 
-    private StudentCreateViewModel Input { get; set; } = new StudentCreateViewModel();
+    [SupplyParameterFromForm]
+    public StudentCreateViewModel Input { get; set; } = new StudentCreateViewModel();
 
     [Parameter]
     public EventCallback<StudentBasicInfo> OnStudentCreated { get; set; }

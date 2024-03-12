@@ -19,7 +19,7 @@ namespace SmartSchool.Students.Students.Display
 
         public async Task<IEnumerable<StudentBasicInfo>> Handle(ListStudents request, CancellationToken cancellationToken)
         {
-            var itemToSkip = request.Paging.PageSize * (request.Paging.PageSize - 1);
+            var itemToSkip = request.Paging.PageSize * (request.Paging.PageNumber - 1);
             var students = await _dbContext.Students
                 .OrderBy(s => s.Id)
                 .Skip(itemToSkip)

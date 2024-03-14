@@ -1,0 +1,23 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using SmartSchool.Web.Services.BffApiClient
+
+@inject IBffApiClient apiClient
+
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+
+<button class="btn btn-danger" @onclick="DeleteStudent">Delete</button>
+
+@code {
+
+    [Parameter]
+    public int StudentId { get; set; }
+
+    [Parameter]
+    public EventCallback<int> OnStudentDeleted { get; set; }
+
+    private async Task DeleteStudent()
+    {
+        await apiClient.DeleteStudentAsync(StudentId);
+        await OnStudentDeleted.InvokeAsync(StudentId);
+    }
+}

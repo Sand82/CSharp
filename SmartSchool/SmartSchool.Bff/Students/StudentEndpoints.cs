@@ -10,8 +10,8 @@ namespace SmartSchool.Bff.Students
         {
             var students = app.MapGroup("/students");            
 
-            students.MapPost("/", async ([FromBody]CreateStudent newStudent, [FromServices] IStudentsApiClient studentClient) 
-                                => await CreateStudent(studentClient, newStudent))
+            students.MapPost("/", async ([FromBody]CreateStudent newStudent, [FromServices] IStudentsApiClient client) 
+                                => await CreateStudent(client, newStudent))
                 .WithName("CreateStudent")
                 .Produces(200, typeof(StudentBaseInfo));
 
@@ -20,12 +20,24 @@ namespace SmartSchool.Bff.Students
                 .WithName("ListStudents")
                 .Produces(200, typeof(StudentBaseInfo[]));
 
-            return app;
-        }        
+            students.MapDelete("/{studentId}", async ( int studentId,
+                                [FromServices] IStudentsApiClient client)
+                                => await DeleteStudent(client, studentId))
+                .WithName("DeleteStudent")
+                .Produces(204);
 
-        private static async Task<IResult> CreateStudent(IStudentsApiClient studentsClient, CreateStudent newStudent)
+            return app;
+        }
+
+        private static async Task<IResult> DeleteStudent(IStudentsApiClient client, int studentId)
         {
-            var result = await studentsClient.CreateStudent(newStudent);
+            await client.DeleteStudent(studentId);
+            return TypedResults.NoContent();
+        }
+
+        private static async Task<IResult> CreateStudent(IStudentsApiClient client, CreateStudent newStudent)
+        {
+            var result = await client.CreateStudent(newStudent);
             return TypedResults.Ok(result);
         }
 

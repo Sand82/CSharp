@@ -9,6 +9,9 @@ namespace SmartSchool.Bff.ApiClients
 
         [Get("/students")]
         Task<StudentBaseInfo[]> ListStudents([Query] PagingOptions paging);
+
+        [Delete("/students/{studentId}")]
+        Task DeleteStudent(int studentId);
     }
 }
 

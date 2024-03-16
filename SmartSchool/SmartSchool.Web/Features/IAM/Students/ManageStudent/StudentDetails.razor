@@ -1,0 +1,16 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+
+@page "/iam/students/{studentId:int}"
+
+<AuthorizeView>
+    <Authorized>
+        <h1>Student Details</h1>
+    </Authorized>
+    <NotAuthorized>
+        <h1>Access Denied</h1>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+
+}

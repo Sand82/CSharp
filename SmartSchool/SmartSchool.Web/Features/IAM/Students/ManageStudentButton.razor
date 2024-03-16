@@ -1,0 +1,18 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+
+@inject NavigationManager navigationManager
+
+@rendermode @(new InteractiveServerRenderMode(prerender: false))
+
+<button class="btn btn-info" @onclick="OpenStudentDetails">Manage</button>
+
+@code {
+
+    [Parameter]
+    public int StudentId { get; set; }
+
+    private void OpenStudentDetails()
+    {
+        navigationManager.NavigateTo($"/iam/students/{StudentId}");
+    }
+}

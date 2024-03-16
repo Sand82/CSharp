@@ -43,8 +43,8 @@ else
                            <th>@student.Age</th>
                            <th>
                                <div class="row">
-                                   <div class="col-6">                                       
-                                       <button class="btn btn-info">Manage</button>
+                                   <div class="col-6">
+                                        <ManageStudentButton StudentId="@student.StudentId"/>
                                    </div>
                                    <div class="col-6">
                                         <DeleteStudentButton StudentId="@student.StudentId" OnStudentDeleted="RemoveStudentFromList" />

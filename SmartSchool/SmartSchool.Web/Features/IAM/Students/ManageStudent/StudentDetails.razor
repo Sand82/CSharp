@@ -4,13 +4,16 @@
 
 <AuthorizeView>
     <Authorized>
-        <h1>Student Details</h1>
+        <div>
+
+        </div>
     </Authorized>
-    <NotAuthorized>
+    @* <NotAuthorized>
         <h1>Access Denied</h1>
-    </NotAuthorized>
+    </NotAuthorized> *@
 </AuthorizeView>
 
 @code {
-
+    [Parameter]
+    public int StudentId { get; set; }
 }

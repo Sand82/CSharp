@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\CSharp\\SmartSchool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\features\\iam\\students\\managestudent\\studentdetailsheader.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\students\\managestudent\\studentdetailsheader.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|c:\\csharp\\smartschool\\smartschool.students\\students\\display\\getstudentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|solutionrelative:smartschool.students\\students\\display\\getstudentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\features\\iam\\students\\managestudent\\studentdetailsbody.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\students\\managestudent\\studentdetailsbody.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|c:\\csharp\\smartschool\\smartschool.students\\students\\display\\studentinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|solutionrelative:smartschool.students\\students\\display\\studentinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\features\\iam\\students\\managestudentbutton.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\students\\managestudentbutton.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|c:\\csharp\\smartschool\\smartschool.students\\students\\display\\liststudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|solutionrelative:smartschool.students\\students\\display\\liststudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\features\\iam\\students\\studentslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\students\\studentslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|c:\\csharp\\smartschool\\smartschool.students\\students\\studentbasicinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|solutionrelative:smartschool.students\\students\\studentbasicinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\features\\iam\\students\\managestudent\\studentdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\students\\managestudent\\studentdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|c:\\csharp\\smartschool\\smartschool.students\\students\\studentsbasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|solutionrelative:smartschool.students\\students\\studentsbasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|c:\\csharp\\smartschool\\smartschool.students\\domain\\models\\relative.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC61D6D3-7643-4171-B508-2B2A3D6BB196}|SmartSchool.Students\\SmartSchool.Students.csproj|solutionrelative:smartschool.students\\domain\\models\\relative.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentDetailsHeader.razor",
-              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsHeader.razor",
-              "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsHeader.razor",
-              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsHeader.razor",
-              "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsHeader.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-16T20:47:08.046Z",
+              "Title": "GetStudentDetails.cs",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\Display\\GetStudentDetails.cs",
+              "RelativeDocumentMoniker": "SmartSchool.Students\\Students\\Display\\GetStudentDetails.cs",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\Display\\GetStudentDetails.cs",
+              "RelativeToolTip": "SmartSchool.Students\\Students\\Display\\GetStudentDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:35:20.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentsList.razor",
-              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\StudentsList.razor",
-              "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Students\\StudentsList.razor",
-              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\StudentsList.razor",
-              "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Students\\StudentsList.razor",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACgAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-16T20:26:22.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ManageStudentButton.razor",
-              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudentButton.razor",
-              "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudentButton.razor",
-              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudentButton.razor",
-              "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudentButton.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-16T20:29:09.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentDetailsBody.razor",
-              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsBody.razor",
-              "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsBody.razor",
-              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsBody.razor",
-              "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsBody.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-16T10:52:35.911Z",
+              "DocumentIndex": 5,
+              "Title": "Relative.cs",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Domain\\Models\\Relative.cs",
+              "RelativeDocumentMoniker": "SmartSchool.Students\\Domain\\Models\\Relative.cs",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Domain\\Models\\Relative.cs",
+              "RelativeToolTip": "SmartSchool.Students\\Domain\\Models\\Relative.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T19:18:35.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "StudentDetails.razor",
-              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetails.razor",
-              "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetails.razor",
-              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetails.razor",
-              "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetails.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-16T10:17:15.297Z",
+              "Title": "StudentsBaseController.cs",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\StudentsBaseController.cs",
+              "RelativeDocumentMoniker": "SmartSchool.Students\\Students\\StudentsBaseController.cs",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\StudentsBaseController.cs",
+              "RelativeToolTip": "SmartSchool.Students\\Students\\StudentsBaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T18:40:43.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentBasicInfo.cs",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\StudentBasicInfo.cs",
+              "RelativeDocumentMoniker": "SmartSchool.Students\\Students\\StudentBasicInfo.cs",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\StudentBasicInfo.cs",
+              "RelativeToolTip": "SmartSchool.Students\\Students\\StudentBasicInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T18:40:14.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListStudents.cs",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\Display\\ListStudents.cs",
+              "RelativeDocumentMoniker": "SmartSchool.Students\\Students\\Display\\ListStudents.cs",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\Display\\ListStudents.cs",
+              "RelativeToolTip": "SmartSchool.Students\\Students\\Display\\ListStudents.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T18:40:06.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentInfoController.cs",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\Display\\StudentInfoController.cs",
+              "RelativeDocumentMoniker": "SmartSchool.Students\\Students\\Display\\StudentInfoController.cs",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Students\\Students\\Display\\StudentInfoController.cs",
+              "RelativeToolTip": "SmartSchool.Students\\Students\\Display\\StudentInfoController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAYwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T18:39:45.976Z",
               "EditorCaption": ""
             }
           ]

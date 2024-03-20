@@ -10,24 +10,15 @@ namespace SmartSchool.Students.Domain.Models
         }
 
         #region Constructors and properties
-        public int Id { get; set; }
-            
-        public required string RollNumber { get; set; }
-        
-        public required string FirstName { get; set; }
-        
-        public required string LastName { get; set; }
-        
+        public int Id { get; set; }            
+        public required string RollNumber { get; set; }        
+        public required string FirstName { get; set; }        
+        public required string LastName { get; set; }        
         public string? Email { get; set; }
-
         public DateTime DateOfBirth { get; set; }
-
         public int Age => CalculateAge();
-
         public string? PhoneNumber { get; set; }
-
         public Address? Address { get; set; }
-
         public ICollection<Relative> Relatives { get; set; }
         #endregion
 

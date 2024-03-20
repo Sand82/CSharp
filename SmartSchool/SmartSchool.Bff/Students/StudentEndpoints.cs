@@ -8,25 +8,37 @@ namespace SmartSchool.Bff.Students
     {
         public static IEndpointRouteBuilder AddStudentEndpoints(this IEndpointRouteBuilder app)
         {
-            var students = app.MapGroup("/students");            
+            var students = app.MapGroup("/students");
 
-            students.MapPost("/", async ([FromBody]CreateStudent newStudent, [FromServices] IStudentsApiClient client) 
+            students.MapPost("/", async ([FromBody] CreateStudent newStudent, [FromServices] IStudentsApiClient client)
                                 => await CreateStudent(client, newStudent))
                 .WithName("CreateStudent")
                 .Produces(200, typeof(StudentBaseInfo));
 
-            students.MapGet("/", async(IStudentsApiClient client, int pageNumber, int pageSize)
+            students.MapGet("/", async (IStudentsApiClient client, int pageNumber, int pageSize)
                                 => await ListStudents(client, pageNumber, pageSize))
                 .WithName("ListStudents")
                 .Produces(200, typeof(StudentBaseInfo[]));
 
-            students.MapDelete("/{studentId}", async ( int studentId,
+            students.MapDelete("/{studentId}", async (int studentId,
                                 [FromServices] IStudentsApiClient client)
                                 => await DeleteStudent(client, studentId))
                 .WithName("DeleteStudent")
                 .Produces(204);
 
+            students.MapGet("/{studentId}", async (int studentId,
+                                [FromServices] IStudentsApiClient client)
+                                => await GetStudentDetails(client, studentId))
+                ;
+
+
             return app;
+        }
+
+        private static async Task<IResult> GetStudentDetails(IStudentsApiClient client, int studentId)
+        {
+            var result = await client.GetStudentDetails(studentId);
+            return TypedResults.Ok(result);
         }
 
         private static async Task<IResult> DeleteStudent(IStudentsApiClient client, int studentId)

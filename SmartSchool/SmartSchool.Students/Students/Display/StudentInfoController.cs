@@ -16,9 +16,12 @@ namespace SmartSchool.Students.Students.Display
 
         [HttpGet]
         [Route("{id}")]
+        [ProducesResponseType(typeof(StudentDetails), 200)]
         public async Task<IActionResult> GetStudentDetails(int id)
         {
-
+            var query = new GetStudentDetails(id);
+            var result = await Mediator.Send(query);
+            return Ok(result);
         }
     }
 }

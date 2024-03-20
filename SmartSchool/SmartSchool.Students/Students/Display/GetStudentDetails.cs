@@ -16,7 +16,7 @@ namespace SmartSchool.Students.Students.Display
                 .AsNoTracking()
                 .FirstOrDefaultAsync(x => x.Id == request.StudentId, cancellationToken);
 
-            return StudentDetails.FromStudent(student);
+            return StudentDetails.FromStudent(student!);
         }
     }
 }

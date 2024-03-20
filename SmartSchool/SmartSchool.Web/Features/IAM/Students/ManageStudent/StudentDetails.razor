@@ -1,17 +1,35 @@
 ﻿@using Microsoft.AspNetCore.Components.Authorization
+@using SmartSchool.Web.Services.BffApiClient
+
+@inject IBffApiClient client
 
 @page "/iam/students/{studentId:int}"
+@attribute [StreamRendering(true)]
 
 <AuthorizeView>
     <Authorized>
-        <div>           
-            <StudentDetailsHeader />
-            <StudentDetailsBody />
-        </div>
+        @if(Student is null)
+        {
+            <p>Loading ... </p>
+        }
+        else
+        {
+            <div>
+                <StudentDetailsHeader />
+                <StudentDetailsBody />
+            </div>
+        }        
     </Authorized>   
 </AuthorizeView>
 
 @code {
     [Parameter]
     public int StudentId { get; set; }
+
+    public SmartSchool.Web.Services.BffApiClient.StudentDetails? Student { get; set; } = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Student = await client.GetStudentDetailsAsync(StudentId);
+    }
 }

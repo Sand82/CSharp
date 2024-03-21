@@ -5,8 +5,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Personal information</h4>
-                        <p>Name: Sand Stef</p>
-                        <p>Email: sand@example.com</p>
+                        <p>Name: @Student!.FirstName @Student!.LastName</p>
+                        <p>Email: @Student!.Email</p>
                     </div>
                     <div class="card-footer" style="background-color:white">
                         <button class="btn btn-success btn-rounded" type="button" data-bs-toggle="modal" data-bs-target="#editPersonalDetails">
@@ -29,9 +29,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Address</h4>
-                        <p>Street: Street Name 1</p>
-                        <p>ZIP code: 1220</p>
-                        <p>City: Sofia</p>
+                        <p>Street: @GetAddressAdnNumber()</p>
+                        <p>City: @GetZipCodeAndCity()</p>                        
                     </div>
                     <div class="card-footer" style="background-color:white">
                         <button class="btn btn-success btn-rounded" type="button" data-bs-toggle="modal" data-bs-target="#updateAddress">
@@ -46,4 +45,28 @@
 
 @code {
 
+    [Parameter]
+    public SmartSchool.Web.Services.BffApiClient.StudentDetails? Student { get; set; }    
+
+    private string GetAddressAdnNumber()
+    {
+        if (Student!.Address == null)
+        {
+            return string.Empty;
+
+        }
+
+        return $"{Student!.Address.Street} {Student!.Address.StreetNumber}";
+    }
+
+    private string GetZipCodeAndCity()
+    {
+        if (Student!.Address == null)
+        {
+            return string.Empty;
+
+        }
+
+        return $"{Student!.Address.City} {Student!.Address.PostalCode}";
+    }
 }

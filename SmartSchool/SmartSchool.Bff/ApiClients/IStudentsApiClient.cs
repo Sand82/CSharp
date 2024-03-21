@@ -36,6 +36,5 @@ public enum RelativeType
 {
     Mother,
     Father,
-    Brother,
-    Sister
+    Guardian
 }

@@ -47,13 +47,5 @@
 
     [Parameter]
     public SmartSchool.Web.Services.BffApiClient.StudentDetails? Student { get; set; }
-    private string PhoneNumber { get; set; } = string.Empty;
-
-    protected override void OnInitialized()
-    {
-        if(Student!.Email is not null)
-        {
-            PhoneNumber = Student!.Email;
-        }
-    }
+    private string PhoneNumber => Student?.PhoneNumber ?? string.Empty;    
 }

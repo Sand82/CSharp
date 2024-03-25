@@ -21,7 +21,7 @@
             </div>
             <div class="modal-body">
                 <EditForm Model="Input" OnValidSubmit="SubmitForm" FormName="createStudent">
-                    <div class="row">                        
+                    <div class="row">
                         <DataAnnotationsValidator/>
                         <ValidationSummary/>
                     </div>
@@ -70,7 +70,7 @@
 @code {
 
     [SupplyParameterFromForm]
-    public StudentCreateViewModel Input { get; set; } = new StudentCreateViewModel();
+    public StudentCreateViewModel Input { get; set; } = new();
 
     [Parameter]
     public EventCallback<StudentBasicInfo> OnStudentCreated { get; set; }

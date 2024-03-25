@@ -1,0 +1,80 @@
+﻿@using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Components.Forms
+
+<div class="modal fade" id="editPersonalDetails">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+
+            </div>
+            <div class="modal-body">
+                 <EditForm Model="Input" OnValidSubmit="SubmitForm" FormName="updateStudentPersonalInfo">
+                    <div class="row">
+                        <DataAnnotationsValidator/>
+                        <ValidationSummary/>
+                    </div>
+                    <div class="row">
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">First Name:</label>
+                            <InputText @bind-Value="Input.FirstName" class="form-control" id="firstName" placeholder="John"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label">Last Name:</label>
+                            <InputText @bind-Value="Input.LastName" class="form-control" id="lastName" placeholder="Doe" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email:</label>
+                                <InputText @bind-Value="Input.Email" class="form-control" id="email" placeholder="email@example.com" />
+                            </div>
+                        </div>                       
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mb-3">
+                                <label for="dob" class="form-label">Date of birth:</label>
+                                <InputDate TValue="DateTime" @bind-Value="Input.DateOfBirth" class="form-control" id="dob"/>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-success">Save</button>
+                        </div>
+                    </div>                    
+                </EditForm>
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+@code {
+
+    [SupplyParameterFromForm]
+    public StudentDetailsUpdate Input { get; set; } = new();
+
+    private async Task SubmitForm()
+    {
+        
+    }
+
+    public class StudentDetailsUpdate
+    {
+        [Required]
+        public string? FirstName { get; set; }
+
+        [Required]
+        public string? LastName { get; set; }
+
+        [Required]
+        public string? Email { get; set; }
+
+        [Required]
+        public string? PhoneNumber { get; set; }
+
+        [Required]
+        public DateTime DateOfBirth { get; set; } = DateTime.UtcNow;
+    }
+}

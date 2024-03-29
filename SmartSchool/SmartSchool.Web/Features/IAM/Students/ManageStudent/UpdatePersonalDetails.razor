@@ -16,31 +16,31 @@
                     <div class="row">
                         <div class="mb-3">
                             <label for="firstName" class="form-label">First Name:</label>
-                            <InputText @bind-Value="Input.FirstName" class="form-control" id="firstName" placeholder="John" />
+                            <InputText @bind-Value="Input.FirstName" class="form-control" id="firstName"/>
                         </div>
                         <div class="mb-3">
                             <label for="lastName" class="form-label">Last Name:</label>
-                            <InputText @bind-Value="Input.LastName" class="form-control" id="lastName" placeholder="Doe" />
+                            <InputText @bind-Value="Input.LastName" class="form-control" id="lastName"/>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-6">
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email:</label>
-                                <InputText @bind-Value="Input.Email" class="form-control" id="email" placeholder="email@example.com" />
+                                <InputText @bind-Value="Input.Email" class="form-control" id="email"/>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="mb-3">
                                 <label for="dob" class="form-label">Date of birth:</label>
-                                <InputDate TValue="DateTime" @bind-Value="Input.DateOfBirth" class="form-control" id="dob" />
+                                <InputDate TValue="DateTime" @bind-Value="Input.DateOfBirth" class="form-control" id="dob"/>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="mb-3">
                             <label for="phoneNumber" class="form-label">Phone:</label>
-                            <InputText @bind-Value="Input.PhoneNumber" class="form-control" id="phoneNumber" placeholder="0888777666" />
+                            <InputText @bind-Value="Input.PhoneNumber" class="form-control" id="phoneNumber"/>
                         </div>
                     </div>
                     <div class="row">
@@ -57,9 +57,8 @@
 </div>
 
 @code {
-
-    [SupplyParameterFromForm]
-    public StudentDetailsUpdate Input { get; set; } = new();
+    [SupplyParameterFromForm(FormName = "updateStudentPersonalInfo")]
+    public PersonalDetailsUpdate Input { get; set; } // = new();
 
     [Parameter]
     public SmartSchool.Web.Services.BffApiClient.StudentDetails? Student { get; set; } = null;
@@ -68,13 +67,13 @@
     public EventCallback<SmartSchool.Web.Services.BffApiClient.StudentDetails> OnPersonalInfoUpdated { get; set; }
 
     protected override void OnInitialized()
-    {
+    {        
         Input.Email = Student?.Email ?? string.Empty;
         Input.FirstName = Student?.FirstName ?? string.Empty;
         Input.LastName = Student?.LastName ?? string.Empty;
         Input.PhoneNumber = Student?.PhoneNumber ?? string.Empty;
         Input.DateOfBirth = Student?.DateOfBirth ?? DateTime.UtcNow;
-    }
+    }    
 
     private async Task SubmitForm()
     {
@@ -86,7 +85,7 @@
         await OnPersonalInfoUpdated.InvokeAsync(updated);
     }
 
-    public class StudentDetailsUpdate
+    public class PersonalDetailsUpdate
     {
         [Required]
         public string? FirstName { get; set; } = "";

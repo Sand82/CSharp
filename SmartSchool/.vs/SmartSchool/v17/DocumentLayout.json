@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\students\\managestudent\\updatepersonaldetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\features\\iam\\students\\managestudent\\studentdetailsbody.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\students\\managestudent\\studentdetailsbody.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\features\\iam\\students\\managestudent\\studentdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\students\\managestudent\\studentdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|c:\\csharp\\smartschool\\smartschool.web\\features\\iam\\students\\managestudent\\studentdetailsbody.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD3FF2FF-094F-4DC0-836A-8623B28A14C8}|SmartSchool.Web\\SmartSchool.Web.csproj|solutionrelative:smartschool.web\\features\\iam\\students\\managestudent\\studentdetailsbody.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StudentDetailsBody.razor",
-              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsBody.razor",
-              "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsBody.razor",
-              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsBody.razor",
-              "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsBody.razor",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADEAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-26T19:48:49.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "StudentDetails.razor",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetails.razor",
               "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetails.razor",
@@ -47,8 +34,7 @@
               "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetails.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-26T19:40:56.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T19:40:56.747Z"
             },
             {
               "$type": "Document",
@@ -56,12 +42,24 @@
               "Title": "UpdatePersonalDetails.razor",
               "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\UpdatePersonalDetails.razor",
               "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\UpdatePersonalDetails.razor",
-              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\UpdatePersonalDetails.razor*",
-              "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\UpdatePersonalDetails.razor*",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADoAAAAHAAAA",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\UpdatePersonalDetails.razor",
+              "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\UpdatePersonalDetails.razor",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-25T19:21:04.512Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentDetailsBody.razor",
+              "DocumentMoniker": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsBody.razor",
+              "RelativeDocumentMoniker": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsBody.razor",
+              "ToolTip": "C:\\CSharp\\SmartSchool\\SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsBody.razor",
+              "RelativeToolTip": "SmartSchool.Web\\Features\\IAM\\Students\\ManageStudent\\StudentDetailsBody.razor",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T19:48:49.477Z"
             }
           ]
         }

@@ -8,7 +8,7 @@
             <div class="modal-header">
             </div>
             <div class="modal-body">
-                <EditForm Model="Input" OnValidSubmit="SubmitForm" FormName="updateStudentPersonalInfo">
+                <EditForm Enhance Model="Input" OnValidSubmit="SubmitForm" FormName="updateStudentPersonalInfo">
                     <div class="row">
                         <DataAnnotationsValidator />
                         <ValidationSummary />
@@ -58,22 +58,42 @@
 
 @code {
     [SupplyParameterFromForm(FormName = "updateStudentPersonalInfo")]
-    public PersonalDetailsUpdate Input { get; set; } // = new();
+    public PersonalDetailsUpdate Input { get; set; } = new();
 
     [Parameter]
-    public SmartSchool.Web.Services.BffApiClient.StudentDetails? Student { get; set; } = null;
+    public SmartSchool.Web.Services.BffApiClient.StudentDetails Student { get; set; }
 
     [Parameter]
     public EventCallback<SmartSchool.Web.Services.BffApiClient.StudentDetails> OnPersonalInfoUpdated { get; set; }
 
     protected override void OnInitialized()
     {        
-        Input.Email = Student?.Email ?? string.Empty;
-        Input.FirstName = Student?.FirstName ?? string.Empty;
-        Input.LastName = Student?.LastName ?? string.Empty;
-        Input.PhoneNumber = Student?.PhoneNumber ?? string.Empty;
-        Input.DateOfBirth = Student?.DateOfBirth ?? DateTime.UtcNow;
-    }    
+
+        if (Input.Email is null)
+        {
+            Input.Email = Student?.Email;
+        }
+
+        if (Input.FirstName is null)
+        {
+            Input.FirstName = Student?.FirstName;
+        }
+
+        if (Input.LastName is null)
+        {
+            Input.LastName = Student?.LastName;
+        }
+
+        if (Input.PhoneNumber is null)
+        {
+            Input.PhoneNumber = Student?.PhoneNumber;
+        } 
+
+        if (Student?.DateOfBirth is null)
+        {
+            Input.DateOfBirth = Student?.DateOfBirth ?? DateTime.UtcNow;
+        }
+    }
 
     private async Task SubmitForm()
     {
@@ -88,18 +108,18 @@
     public class PersonalDetailsUpdate
     {
         [Required]
-        public string? FirstName { get; set; } = "";
+        public string? FirstName { get; set; }
 
         [Required]
-        public string? LastName { get; set; } = "";
+        public string? LastName { get; set; }
 
         [Required]
-        public string? Email { get; set; } = "";
+        public string? Email { get; set; }
 
         [Required]
-        public string? PhoneNumber { get; set; } = "";
+        public string? PhoneNumber { get; set; }
 
         [Required]
-        public DateTime DateOfBirth { get; set; } = DateTime.UtcNow;
+        public DateTime DateOfBirth { get; set; }
     }
 }

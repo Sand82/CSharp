@@ -25,10 +25,16 @@ namespace Play.catalog.Service.Controllers
         }
 
         [HttpGet("{id}")]
-        public ItemDto GetById(Guid id)
+        public ActionResult<ItemDto> GetById(Guid id)
         {
             var item = FindItem(id);
-            return item;
+
+            if (item is null)
+            {
+                return NotFound();
+            }
+
+            return Ok(item);
         }
 
         [HttpPost]
@@ -44,6 +50,11 @@ namespace Play.catalog.Service.Controllers
         public IActionResult Put(Guid id, UpdateItemDto updateItemDto)
         {
             var item = FindItem(id);
+
+            if (item is null)
+            {
+                return NotFound();
+            }
 
             var updatedItem = item with
             {
@@ -62,11 +73,17 @@ namespace Play.catalog.Service.Controllers
         public IActionResult Delete(Guid id)
         {
             var item = FindItem(id);
+
+            if (item is null)
+            {
+                return NotFound();
+            }
+            
             var index = items.IndexOf(item);
             items.RemoveAt(index);
 
             return NoContent();
-        } 
+        }
 
         private ItemDto FindItem(Guid id)
         {

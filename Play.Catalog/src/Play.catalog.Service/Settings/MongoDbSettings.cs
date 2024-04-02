@@ -6,6 +6,6 @@ namespace Play.catalog.Service.Settings
 
         public int Port { get; init; }
 
-        public string ConectionString => string.Format($"mongodb://{0}:{1}", Host, Port);
+        public string ConectionString => $"mongodb://{Host}:{Port}";
     }
 }

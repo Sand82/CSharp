@@ -2,7 +2,7 @@ using System;
 
 namespace Play.catalog.Service.Entities
 {
-    public class Item
+    public class Item : IEntity
     {
         public Guid Id { get; set; }
 
@@ -10,7 +10,7 @@ namespace Play.catalog.Service.Entities
 
         public string Description { get; set; }
 
-        public decimal Price {get; set;}    
+        public decimal Price { get; set; }
 
         public DateTimeOffset CreatedDate { get; set; }
     }

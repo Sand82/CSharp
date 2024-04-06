@@ -1,17 +1,12 @@
-using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using MongoDB.Bson;
-using MongoDB.Bson.Serialization;
-using MongoDB.Bson.Serialization.Serializers;
-using MongoDB.Driver;
 using Play.catalog.Service.Entities;
-using Play.catalog.Service.Repositories;
-using Play.catalog.Service.Settings;
+using Play.Common.MongoDB;
+using Play.Common.Settings;
 
 namespace Play.catalog.Service
 {

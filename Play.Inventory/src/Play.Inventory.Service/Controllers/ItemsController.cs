@@ -2,9 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Authentication;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Play.Common;
+using Play.Inventory.Service.Clients;
 using Play.Inventory.Service.Dtos;
 using Play.Inventory.Service.Entities;
 
@@ -15,10 +17,12 @@ namespace Play.Inventory.Service.Controllers
     public class ItemsController : ControllerBase
     {
         private readonly IRepository<InventoryItem> itemRepository;
+        private readonly CatalogClient catalogClient;
 
-        public ItemsController(IRepository<InventoryItem> itemRepository)
+        public ItemsController(IRepository<InventoryItem> itemRepository, CatalogClient catalogClient)
         {
             this.itemRepository = itemRepository;
+            this.catalogClient = catalogClient;
         }
 
         [HttpGet]
@@ -29,10 +33,16 @@ namespace Play.Inventory.Service.Controllers
                 return BadRequest();
             }
 
-            var items = (await itemRepository.GetAllAsync(item => item.UserId == userId))
-                .Select(item => item.AsDto());
+            var catalogItems = await catalogClient.GetCatalogItemsAsync();
+            var inventoryItemEntities = await itemRepository.GetAllAsync(i => i.UserId == userId);
 
-            return Ok(items);
+            var inventoryItemDtos = inventoryItemEntities.Select(i =>
+            {
+                var catalogItem = catalogItems.Single(ci => i.CatalogItemId == ci.Id);
+                return i.AsDto(catalogItem.Name, catalogItem.Description);
+            });
+
+            return Ok(inventoryItemDtos);
         }
 
         [HttpPost]

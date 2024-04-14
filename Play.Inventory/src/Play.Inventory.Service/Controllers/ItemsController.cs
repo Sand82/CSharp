@@ -36,13 +36,13 @@ namespace Play.Inventory.Service.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> PostAsync (GrantItemsDto item)
+        public async Task<ActionResult> PostAsync(GrantItemsDto item)
         {
             var inventoryItem = await itemRepository.GetAsync(i => i.UserId == item.UserId && i.CatalogItemId == item.CatalogItemId);
 
             if (inventoryItem == null)
             {
-                inventoryItem = new InventoryItem 
+                inventoryItem = new InventoryItem
                 {
                     CatalogItemId = item.CatalogItemId,
                     UserId = item.UserId,
@@ -51,7 +51,7 @@ namespace Play.Inventory.Service.Controllers
                 };
 
                 await itemRepository.CreateAsync(inventoryItem);
-            } 
+            }
             else
             {
                 inventoryItem.Quantity += item.Quantity;

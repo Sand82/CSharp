@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CSharp\\DesignPatterns\\Structural\\Facade\\Facade\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8BE8A03E-E2F0-40C0-9C31-1B93EC2B8189}|Facade\\Facade.csproj|c:\\csharp\\designpatterns\\structural\\facade\\facade\\facade\\externalproviderthree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BE8A03E-E2F0-40C0-9C31-1B93EC2B8189}|Facade\\Facade.csproj|solutionrelative:facade\\externalproviderthree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BE8A03E-E2F0-40C0-9C31-1B93EC2B8189}|Facade\\Facade.csproj|c:\\csharp\\designpatterns\\structural\\facade\\facade\\facade\\externalprovidertwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BE8A03E-E2F0-40C0-9C31-1B93EC2B8189}|Facade\\Facade.csproj|solutionrelative:facade\\externalprovidertwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BE8A03E-E2F0-40C0-9C31-1B93EC2B8189}|Facade\\Facade.csproj|c:\\csharp\\designpatterns\\structural\\facade\\facade\\facade\\externalproviderone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BE8A03E-E2F0-40C0-9C31-1B93EC2B8189}|Facade\\Facade.csproj|solutionrelative:facade\\externalproviderone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BE8A03E-E2F0-40C0-9C31-1B93EC2B8189}|Facade\\Facade.csproj|c:\\csharp\\designpatterns\\structural\\facade\\facade\\facade\\facade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BE8A03E-E2F0-40C0-9C31-1B93EC2B8189}|Facade\\Facade.csproj|solutionrelative:facade\\facade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BE8A03E-E2F0-40C0-9C31-1B93EC2B8189}|Facade\\Facade.csproj|c:\\csharp\\designpatterns\\structural\\facade\\facade\\facade\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BE8A03E-E2F0-40C0-9C31-1B93EC2B8189}|Facade\\Facade.csproj|solutionrelative:facade\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExternalProviderThree.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Facade\\Facade\\Facade\\ExternalProviderThree.cs",
+              "RelativeDocumentMoniker": "Facade\\ExternalProviderThree.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Facade\\Facade\\Facade\\ExternalProviderThree.cs*",
+              "RelativeToolTip": "Facade\\ExternalProviderThree.cs*",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T19:15:28.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExternalProviderTwo.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Facade\\Facade\\Facade\\ExternalProviderTwo.cs",
+              "RelativeDocumentMoniker": "Facade\\ExternalProviderTwo.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Facade\\Facade\\Facade\\ExternalProviderTwo.cs",
+              "RelativeToolTip": "Facade\\ExternalProviderTwo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T19:15:04.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExternalProviderOne.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Facade\\Facade\\Facade\\ExternalProviderOne.cs",
+              "RelativeDocumentMoniker": "Facade\\ExternalProviderOne.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Facade\\Facade\\Facade\\ExternalProviderOne.cs",
+              "RelativeToolTip": "Facade\\ExternalProviderOne.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T19:14:40.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Facade.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Facade\\Facade\\Facade\\Facade.cs",
+              "RelativeDocumentMoniker": "Facade\\Facade.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Facade\\Facade\\Facade\\Facade.cs",
+              "RelativeToolTip": "Facade\\Facade.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T19:12:44.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Facade\\Facade\\Facade\\Program.cs",
+              "RelativeDocumentMoniker": "Facade\\Program.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Facade\\Facade\\Facade\\Program.cs",
+              "RelativeToolTip": "Facade\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T19:10:37.819Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

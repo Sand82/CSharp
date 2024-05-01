@@ -1,8 +1,22 @@
 ﻿namespace Composite
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
+        { 
+            var mainComponent = new MainComponent();
+
+            var setComponent = Setup(mainComponent);
+
+            Client(setComponent);
+        }
+
+        private static void Client(MainComponent mainComponent)
+        {
+            Console.WriteLine(mainComponent.GetNumber());
+        }
+
+        private static MainComponent Setup(MainComponent mainComponent)
         {
             var firstLeaf = new LeafOne();
             var secondLeaf = new LeafTwo();
@@ -20,18 +34,11 @@
             secondComponent.AddChild(fourthLeaf);
             secondComponent.AddChild(fifthLeaf);
             secondComponent.AddChild(sixthLeaf);
-            
-            var mainComponent = new MainComponent();
 
             mainComponent.AddChild(firstComponent);
             mainComponent.AddChild(secondComponent);
 
-            Console.WriteLine(mainComponent.GetNumber());
-        }
-
-        public static void Client(MainComponent mainComponent)
-        {
-            Console.WriteLine(mainComponent.GetNumber());
+            return mainComponent;
         }
     }
 }

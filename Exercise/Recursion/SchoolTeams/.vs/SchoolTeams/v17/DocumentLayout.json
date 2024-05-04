@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CSharp\\Exercise\\Recursion\\SchoolTeams\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{553D18C2-3364-46A9-96CE-589075F02D40}|SchoolTeams\\SchoolTeams.csproj|c:\\csharp\\exercise\\recursion\\schoolteams\\schoolteams\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{553D18C2-3364-46A9-96CE-589075F02D40}|SchoolTeams\\SchoolTeams.csproj|solutionrelative:schoolteams\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CSharp\\Exercise\\Recursion\\SchoolTeams\\SchoolTeams\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolTeams\\Program.cs",
+              "ToolTip": "C:\\CSharp\\Exercise\\Recursion\\SchoolTeams\\SchoolTeams\\Program.cs",
+              "RelativeToolTip": "SchoolTeams\\Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAC0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:19:50.453Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

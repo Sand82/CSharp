@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CSharp\\Exercise\\Recursion\\QuickSort\\QuickSort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10645C6B-52A6-4960-AD27-2A0430A522D3}|QuickSort\\QuickSort.csproj|c:\\csharp\\exercise\\recursion\\quicksort\\quicksort\\quicksort\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10645C6B-52A6-4960-AD27-2A0430A522D3}|QuickSort\\QuickSort.csproj|solutionrelative:quicksort\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CSharp\\Exercise\\Recursion\\QuickSort\\QuickSort\\QuickSort\\Program.cs",
+              "RelativeDocumentMoniker": "QuickSort\\Program.cs",
+              "ToolTip": "C:\\CSharp\\Exercise\\Recursion\\QuickSort\\QuickSort\\QuickSort\\Program.cs",
+              "RelativeToolTip": "QuickSort\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T16:41:42.959Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

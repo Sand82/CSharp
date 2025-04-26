@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\factories\\japanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\factories\\japanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\vehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\vehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\vehicalrace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\vehicalrace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\motor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\motor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JapanFactory.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Factories\\JapanFactory.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\Factories\\JapanFactory.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Factories\\JapanFactory.cs",
+              "RelativeToolTip": "AbstractFactory\\Factories\\JapanFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:47:10.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Car.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\Car.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Car.cs",
+              "RelativeToolTip": "AbstractFactory\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:46:42.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Motor.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Motor.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\Motor.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Motor.cs",
+              "RelativeToolTip": "AbstractFactory\\Motor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:46:35.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VehicalRace.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\VehicalRace.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\VehicalRace.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\VehicalRace.cs",
+              "RelativeToolTip": "AbstractFactory\\VehicalRace.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:45:57.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehicleFactory.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\VehicleFactory.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\VehicleFactory.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\VehicleFactory.cs",
+              "RelativeToolTip": "AbstractFactory\\VehicleFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T11:46:15.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Program.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\Program.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Program.cs",
+              "RelativeToolTip": "AbstractFactory\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-09-08T19:01:03.594Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

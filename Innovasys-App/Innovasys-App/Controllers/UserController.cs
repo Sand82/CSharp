@@ -1,4 +1,5 @@
-﻿using Innovasys_App.Services.UserService;
+﻿using Innovasys_App.Models.Views;
+using Innovasys_App.Services.UserService;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Innovasys_App.Controllers
@@ -14,9 +15,19 @@ namespace Innovasys_App.Controllers
 
         public async Task<IActionResult> LoadData()
         {
-            await userService.GetData();
+            await userService.LoadData();
 
-            return View();
+            var models = userService.GetData();
+            
+            return View(models);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Add(List<UserViewModel> models)
+        {
+            
+
+            return Ok(models);
         }
     }
 }

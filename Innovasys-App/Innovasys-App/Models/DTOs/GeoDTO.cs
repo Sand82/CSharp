@@ -1,8 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
 using static Innovasys_App.Data.Constants.GlobalConstants;
 
-namespace Innovasys_App.Models
+namespace Innovasys_App.Models.DTOs
 {
     public class GeoDto
     {

@@ -1,8 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
 using static Innovasys_App.Data.Constants.GlobalConstants;
 
-namespace Innovasys_App.Models
+namespace Innovasys_App.Models.DTOs
 {
     public class AddressDTO
     {
@@ -22,6 +21,6 @@ namespace Innovasys_App.Models
         [StringLength(ZipCodeLength, ErrorMessage = ErrorMassage)]
         public string? ZipCode { get; set; }
 
-        public GeoDto? Geo { get; set; }        
+        public GeoDto? Geo { get; set; }
     }
 }

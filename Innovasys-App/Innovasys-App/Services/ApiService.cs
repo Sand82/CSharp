@@ -1,7 +1,7 @@
-﻿using Innovasys_App.Models;
+﻿using Innovasys_App.Models.DTOs;
 using System.Text.Json;
 
-namespace Innovasys_App.Services.UserService
+namespace Innovasys_App.Services
 {
     public class ApiService
     {

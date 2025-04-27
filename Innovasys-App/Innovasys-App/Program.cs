@@ -1,10 +1,13 @@
-using Innovasys_App.Data;
-using Innovasys_App.Services.UserService;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
+
+using Innovasys_App.Data;
+using Innovasys_App.Services;
+using Innovasys_App.Services.UserService;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -12,16 +15,17 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     sqlOptions => sqlOptions.EnableRetryOnFailure()
   ));
 
+builder.Services.AddTransient<IDbConnection>(sp =>
+    new SqlConnection(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 builder.Services.AddHttpClient<ApiService>();
 builder.Services.AddTransient<IUserService, UserService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseExceptionHandler("/Home/Error");    
     app.UseHsts();
 }
 

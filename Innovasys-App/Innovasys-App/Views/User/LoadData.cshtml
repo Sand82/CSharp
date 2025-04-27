@@ -1,5 +1,104 @@
-﻿
+﻿@model List<UserViewModel>
 
-<div class="container" style="height:70vh;">
-    App Works
+@{
+    ViewData["Title"] = "User Info";
+}
+
+<div class="container">
+    <form method="post">
+        <table class="table table-bordered" style="width: 150%;">
+            <thead class="table-dark">
+                <tr>
+                    <th>N</th>
+                    <th>Name</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Website</th>
+                    <th>Notes</th>
+                    <th>IsActive</th>
+                    <th style="text-align:center;">Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    <tr>
+                        <td>@(i + 1)</td>                        
+                        <td>
+                            <input type="text" name="[@i].Name" value="@Model[i].Name" class="form-control" readonly />
+                            <input type="hidden" name="[@i].Name" value="@Model[i].Name" />
+                        </td>
+                        <td>
+                            <input type="text" name="[@i].NotUsername" value="@Model[i].NotUsername" class="form-control" readonly />
+                            <input type="hidden" name="[@i].NotUsername" value="@Model[i].NotUsername" />
+                        </td>
+                        <td>
+                            <input type="email" name="[@i].Email" value="@Model[i].Email" class="form-control" readonly />
+                            <input type="hidden" name="[@i].Email" value="@Model[i].Email" />
+                        </td>
+                        <td>
+                            <input type="text" name="[@i].Phone" value="@Model[i].Phone" class="form-control" readonly />
+                            <input type="hidden" name="[@i].Phone" value="@Model[i].Phone" />
+                        </td>
+                        <td>
+                            <input type="text" name="[@i].Website" value="@Model[i].Website" class="form-control" readonly />
+                            <input type="hidden" name="[@i].Website" value="@Model[i].Website" />
+                        </td>
+                        
+                        <td>
+                            <textarea name="[@i].Note" class="form-control" style="width: 100%; height: 100%;">@Model[i].Note</textarea>
+                        </td>
+                        <td>
+                            <input class="form-check-input me-1" type="checkbox" name="[@i].IsActive" @(Model[i].IsActive ? "checked" : "") />
+                        </td>
+
+                        <td>
+                            <table class="table table-lg table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Street</th>
+                                        <th>Suite</th>
+                                        <th>City</th>
+                                        <th>Zip Code</th>
+                                        <th>Lat</th>
+                                        <th>Lng</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <input type="text" name="[@i].Address.Street" value="@Model[i].Address!.Street" class="form-control" readonly />
+                                            <input type="hidden" name="[@i].Address.Street" value="@Model[i].Address!.Street" />
+                                         </td>
+                                        <td>
+                                            <input type="text" name="[@i].Address.Suite" value="@Model[i].Address!.Suite" class="form-control" readonly />
+                                            <input type="hidden" name="[@i].Address.Suite" value="@Model[i].Address!.Suite" />
+                                        </td>
+                                        <td>
+                                            <input type="text" name="[@i].Address.City" value="@Model[i].Address!.City" class="form-control" readonly />
+                                            <input type="hidden" name="[@i].Address.City" value="@Model[i].Address!.City" />
+                                        </td>
+                                        <td>
+                                            <input type="text" name="[@i].Address.ZipCode" value="@Model[i].Address!.ZipCode" class="form-control" readonly />
+                                            <input type="hidden" name="[@i].Address.ZipCode" value="@Model[i].Address!.ZipCode" />
+                                        </td>
+                                        <td>
+                                            <input type="text" name="[@i].Address.Lat" value="@Model[i].Address!.Lat" class="form-control" readonly />
+                                            <input type="hidden" name="[@i].Address.Lat" value="@Model[i].Address!.Lat"  />
+                                        </td>
+                                        <td>
+                                            <input type="text" name="[@i].Address.Lng" value="@Model[i].Address!.Lng" class="form-control" readonly />
+                                            <input type="hidden" name="[@i].Address.Lng" value="@Model[i].Address!.Lng" />
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <button type="submit" asp-controller="User" asp-action="Add" class="btn btn-primary mt-4 mb-4">Save All</button>
+    </form>
 </div>

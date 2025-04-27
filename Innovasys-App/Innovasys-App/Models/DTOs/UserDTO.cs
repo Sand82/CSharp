@@ -1,9 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
 using static Innovasys_App.Data.Constants.GlobalConstants;
 
-namespace Innovasys_App.Models
+namespace Innovasys_App.Models.DTOs
 {
     public class UserDTO
     {

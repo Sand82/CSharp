@@ -36,7 +36,7 @@ namespace Innovasys_App.Services.UserService
             {
                 var data = await apiService.LoadData();
 
-                await AddDataToDB(data);
+                await AddData(data);
             }
         }
 
@@ -101,7 +101,7 @@ namespace Innovasys_App.Services.UserService
                 await AddToDB(currUser, currAddress);
             }
         }
-        private async Task AddDataToDB(List<UserDTO> data)
+        private async Task AddData(List<UserDTO> data)
         {
             foreach (var user in data)
             {

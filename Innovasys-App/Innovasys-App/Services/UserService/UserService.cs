@@ -6,6 +6,8 @@ using Innovasys_App.Models.DTOs;
 using Innovasys_App.Models.Views;
 using Innovasys_App.Data;
 using Innovasys_App.Data.Models;
+using Microsoft.VisualBasic;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Innovasys_App.Services.UserService
 {
@@ -68,6 +70,37 @@ namespace Innovasys_App.Services.UserService
             return users;
         }
 
+        public async Task EditData(List<UserViewModel> model)
+        {
+            TruncateDb();
+
+            foreach (var user in model)
+            {
+                var currUser = new User
+                {
+                    Name = user.Name,
+                    NotUsername = user.NotUsername,
+                    Phone = user.Phone,
+                    Email = user.Email,
+                    Website = user.Website,
+                    CreatedAt = DateTime.UtcNow,
+                    Note = user.Note,
+                    IsActive = user.IsActive,
+                };
+
+                var currAddress = new Address
+                {
+                    Street = user.Address!.Street,
+                    Suite = user.Address.Suite,
+                    City = user.Address.City,
+                    ZipCode = user.Address.ZipCode,
+                    Lat = user.Address.Lat,
+                    Lng = user.Address.Lng,
+                };
+
+                await AddToDB(currUser, currAddress);
+            }
+        }
         private async Task AddDataToDB(List<UserDTO> data)
         {
             foreach (var user in data)
@@ -80,54 +113,78 @@ namespace Innovasys_App.Services.UserService
                     Email = user.Email,
                     Website = user.Website,
                     CreatedAt = DateTime.UtcNow,
+                    Note = "",
                     IsActive = true,
                 };
 
-                using (var connection = new SqlConnection(configuration.GetConnectionString("DefaultConnection")))
+                var currAddress = new Address
                 {
-                    await connection.OpenAsync();
+                    Street = user.Address!.Street,
+                    Suite = user.Address.Suite,
+                    City = user.Address.City,
+                    ZipCode = user.Address.ZipCode,
+                    Lat = double.Parse(user.Address.Geo!.Lat!),
+                    Lng = double.Parse(user.Address.Geo.Lng!),                    
+                };
 
-                    using (var transaction = connection.BeginTransaction())
+                await AddToDB(currUser, currAddress);
+            }
+        }
+        
+        private async Task AddToDB(User currUser, Address currAddress)
+        {
+            using (var connection = new SqlConnection(configuration.GetConnectionString("DefaultConnection")))
+            {
+                await connection.OpenAsync();
+
+                using (var transaction = connection.BeginTransaction())
+                {
+                    try
                     {
-                        try
-                        {                            
-                            var insertUserQuery = @"
-                                INSERT INTO Users (Name, NotUsername, Phone, Email, Website, CreatedAt, IsActive)
-                                VALUES (@Name, @NotUsername, @Phone, @Email, @Website, @CreatedAt, @IsActive);
+                        var insertUserQuery = @"
+                                INSERT INTO Users (Name, NotUsername, Phone, Email, Website, CreatedAt, Note, IsActive)
+                                VALUES (@Name, @NotUsername, @Phone, @Email, @Website, @CreatedAt, @Note, @IsActive);
                                 SELECT CAST(SCOPE_IDENTITY() as int);
                             ";
 
-                            var userId = await connection.ExecuteScalarAsync<int>(insertUserQuery, currUser, transaction);
+                        var userId = await connection.ExecuteScalarAsync<int>(insertUserQuery, currUser, transaction);
 
-                           
-                            var insertAddressQuery = @"
+
+                        var insertAddressQuery = @"
                                 INSERT INTO Addresses (Street, Suite, City, ZipCode, Lat, Lng, UserId)
                                 VALUES (@Street, @Suite, @City, @ZipCode, @Lat, @Lng, @UserId);
                             ";
 
-                            var currAddress = new
-                            {
-                                Street = user.Address.Street,
-                                Suite = user.Address.Suite,
-                                City = user.Address.City,
-                                ZipCode = user.Address.ZipCode,
-                                Lat = double.Parse(user.Address.Geo.Lat),
-                                Lng = double.Parse(user.Address.Geo.Lng),
-                                UserId = userId
-                            };
+                        currAddress.UserId = userId;
 
-                            await connection.ExecuteAsync(insertAddressQuery, currAddress, transaction);
-                            
-                            await transaction.CommitAsync();
-                        }
-                        catch
-                        {
-                            await transaction.RollbackAsync();
-                            throw;
-                        }
+                        await connection.ExecuteAsync(insertAddressQuery, currAddress, transaction);
+
+                        await transaction.CommitAsync();
+                    }
+                    catch
+                    {
+                        await transaction.RollbackAsync();
+                        throw;
                     }
                 }
             }
-        }        
+        }
+
+        private void TruncateDb()
+        {
+            using (var connection = new SqlConnection(dbConnection.ConnectionString))
+            {
+                connection.Open();
+
+                using (var transaction = connection.BeginTransaction())
+                {
+                    connection.Execute("DELETE FROM Addresses", transaction: transaction);
+
+                    connection.Execute("DELETE FROM Users", transaction: transaction);
+
+                    transaction.Commit();
+                }
+            }
+        }
     }
 }

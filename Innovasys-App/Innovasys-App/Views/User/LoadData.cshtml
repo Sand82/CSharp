@@ -5,7 +5,7 @@
 }
 
 <div class="container">
-    <form method="post">
+    <form asp-action="Add" asp-controller="User" method="post">
         <table class="table table-bordered" style="width: 150%;">
             <thead class="table-dark">
                 <tr>
@@ -24,35 +24,28 @@
                 @for (int i = 0; i < Model.Count; i++)
                 {
                     <tr>
-                        <td>@(i + 1)</td>                        
+                        <td>@(i + 1)</td>
                         <td>
-                            <input type="text" name="[@i].Name" value="@Model[i].Name" class="form-control" readonly />
-                            <input type="hidden" name="[@i].Name" value="@Model[i].Name" />
+                            <input asp-for="@Model[i].Name" class="form-control" readonly />
                         </td>
                         <td>
-                            <input type="text" name="[@i].NotUsername" value="@Model[i].NotUsername" class="form-control" readonly />
-                            <input type="hidden" name="[@i].NotUsername" value="@Model[i].NotUsername" />
+                            <input asp-for="@Model[i].NotUsername" class="form-control" readonly />
                         </td>
                         <td>
-                            <input type="email" name="[@i].Email" value="@Model[i].Email" class="form-control" readonly />
-                            <input type="hidden" name="[@i].Email" value="@Model[i].Email" />
+                            <input asp-for="@Model[i].Email" class="form-control" readonly />
                         </td>
                         <td>
-                            <input type="text" name="[@i].Phone" value="@Model[i].Phone" class="form-control" readonly />
-                            <input type="hidden" name="[@i].Phone" value="@Model[i].Phone" />
+                            <input asp-for="@Model[i].Phone" class="form-control" readonly />
                         </td>
                         <td>
-                            <input type="text" name="[@i].Website" value="@Model[i].Website" class="form-control" readonly />
-                            <input type="hidden" name="[@i].Website" value="@Model[i].Website" />
+                            <input asp-for="@Model[i].Website" class="form-control" readonly />
                         </td>
-                        
-                        <td>
-                            <textarea name="[@i].Note" class="form-control" style="width: 100%; height: 100%;">@Model[i].Note</textarea>
+                        <td style=" height: 60px;">
+                            <textarea asp-for="@Model[i].Note" class="form-control" style="width: 100%; height: 100%;"></textarea>
                         </td>
                         <td>
-                            <input class="form-check-input me-1" type="checkbox" name="[@i].IsActive" @(Model[i].IsActive ? "checked" : "") />
+                            <input class="form-check-input me-1" asp-for="@Model[i].IsActive" />
                         </td>
-
                         <td>
                             <table class="table table-lg table-striped">
                                 <thead>
@@ -68,28 +61,22 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <input type="text" name="[@i].Address.Street" value="@Model[i].Address!.Street" class="form-control" readonly />
-                                            <input type="hidden" name="[@i].Address.Street" value="@Model[i].Address!.Street" />
-                                         </td>
-                                        <td>
-                                            <input type="text" name="[@i].Address.Suite" value="@Model[i].Address!.Suite" class="form-control" readonly />
-                                            <input type="hidden" name="[@i].Address.Suite" value="@Model[i].Address!.Suite" />
+                                            <input asp-for="@Model[i].Address!.Street" class="form-control" readonly />
                                         </td>
                                         <td>
-                                            <input type="text" name="[@i].Address.City" value="@Model[i].Address!.City" class="form-control" readonly />
-                                            <input type="hidden" name="[@i].Address.City" value="@Model[i].Address!.City" />
+                                            <input asp-for="@Model[i].Address!.Suite" class="form-control" readonly />
                                         </td>
                                         <td>
-                                            <input type="text" name="[@i].Address.ZipCode" value="@Model[i].Address!.ZipCode" class="form-control" readonly />
-                                            <input type="hidden" name="[@i].Address.ZipCode" value="@Model[i].Address!.ZipCode" />
+                                            <input asp-for="@Model[i].Address!.City" class="form-control" readonly />
                                         </td>
                                         <td>
-                                            <input type="text" name="[@i].Address.Lat" value="@Model[i].Address!.Lat" class="form-control" readonly />
-                                            <input type="hidden" name="[@i].Address.Lat" value="@Model[i].Address!.Lat"  />
+                                            <input asp-for="@Model[i].Address!.ZipCode" class="form-control" readonly />
                                         </td>
                                         <td>
-                                            <input type="text" name="[@i].Address.Lng" value="@Model[i].Address!.Lng" class="form-control" readonly />
-                                            <input type="hidden" name="[@i].Address.Lng" value="@Model[i].Address!.Lng" />
+                                            <input asp-for="@Model[i].Address!.Lat" class="form-control" readonly />
+                                        </td>
+                                        <td>
+                                            <input asp-for="@Model[i].Address!.Lng" class="form-control" readonly />
                                         </td>
                                     </tr>
                                 </tbody>
@@ -99,6 +86,6 @@
                 }
             </tbody>
         </table>
-        <button type="submit" asp-controller="User" asp-action="Add" class="btn btn-primary mt-4 mb-4">Save All</button>
+        <button type="submit" class="btn btn-primary mt-4 mb-4">Save All</button>
     </form>
 </div>

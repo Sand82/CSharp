@@ -23,11 +23,12 @@ namespace Innovasys_App.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Add(List<UserViewModel> models)
+        public async Task<IActionResult> Add(List<UserViewModel> model)
         {
-            
 
-            return Ok(models);
+            await userService.EditData(model);
+
+            return RedirectToAction("Index", "Home");
         }
     }
 }

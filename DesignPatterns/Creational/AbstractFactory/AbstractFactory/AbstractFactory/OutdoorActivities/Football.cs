@@ -4,6 +4,6 @@ public class Football : ISport
 {
     public void Play()
     {
-        Console.WriteLine("Playing football !");
+        Console.WriteLine("Playing football");
     }
 }

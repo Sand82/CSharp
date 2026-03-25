@@ -4,7 +4,7 @@
     {
         public void Play()
         {
-            Console.WriteLine("Playing Capture The Flag !");
+            Console.WriteLine("Playing Capture The Flag");
         }
     }
 }

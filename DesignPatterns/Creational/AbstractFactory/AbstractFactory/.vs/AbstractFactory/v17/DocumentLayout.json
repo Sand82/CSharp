@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\factories\\japanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\factories\\japanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\outdooractivities\\capturetheflag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\outdooractivities\\capturetheflag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\vehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\vehiclefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\outdooractivities\\football.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\outdooractivities\\football.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\vehicalrace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\vehicalrace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\indooractivities\\tabletennis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\indooractivities\\tabletennis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\motor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\motor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\indooractivities\\chess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\indooractivities\\chess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\igame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\igame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\isport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|solutionrelative:abstractfactory\\isport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B4B234B-287F-46B3-84A5-CB71A686558F}|AbstractFactory\\AbstractFactory.csproj|c:\\csharp\\designpatterns\\creational\\abstractfactory\\abstractfactory\\abstractfactory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,82 +38,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Football.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\OutdoorActivities\\Football.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\OutdoorActivities\\Football.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\OutdoorActivities\\Football.cs",
+              "RelativeToolTip": "AbstractFactory\\OutdoorActivities\\Football.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T09:59:58.005Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JapanFactory.cs",
-              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Factories\\JapanFactory.cs",
-              "RelativeDocumentMoniker": "AbstractFactory\\Factories\\JapanFactory.cs",
-              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Factories\\JapanFactory.cs",
-              "RelativeToolTip": "AbstractFactory\\Factories\\JapanFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "CaptureTheFlag.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\OutdoorActivities\\CaptureTheFlag.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\OutdoorActivities\\CaptureTheFlag.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\OutdoorActivities\\CaptureTheFlag.cs",
+              "RelativeToolTip": "AbstractFactory\\OutdoorActivities\\CaptureTheFlag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:47:10.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Car.cs",
-              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Car.cs",
-              "RelativeDocumentMoniker": "AbstractFactory\\Car.cs",
-              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Car.cs",
-              "RelativeToolTip": "AbstractFactory\\Car.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:46:42.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Motor.cs",
-              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Motor.cs",
-              "RelativeDocumentMoniker": "AbstractFactory\\Motor.cs",
-              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Motor.cs",
-              "RelativeToolTip": "AbstractFactory\\Motor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:46:35.363Z",
+              "WhenOpened": "2026-03-25T09:56:13.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "VehicalRace.cs",
-              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\VehicalRace.cs",
-              "RelativeDocumentMoniker": "AbstractFactory\\VehicalRace.cs",
-              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\VehicalRace.cs",
-              "RelativeToolTip": "AbstractFactory\\VehicalRace.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Title": "TableTennis.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\IndoorActivities\\TableTennis.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\IndoorActivities\\TableTennis.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\IndoorActivities\\TableTennis.cs",
+              "RelativeToolTip": "AbstractFactory\\IndoorActivities\\TableTennis.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:45:57.108Z",
+              "WhenOpened": "2026-03-25T09:48:29.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VehicleFactory.cs",
-              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\VehicleFactory.cs",
-              "RelativeDocumentMoniker": "AbstractFactory\\VehicleFactory.cs",
-              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\VehicleFactory.cs",
-              "RelativeToolTip": "AbstractFactory\\VehicleFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "Chess.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\IndoorActivities\\Chess.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\IndoorActivities\\Chess.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\IndoorActivities\\Chess.cs",
+              "RelativeToolTip": "AbstractFactory\\IndoorActivities\\Chess.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T11:46:15.204Z",
+              "WhenOpened": "2026-03-25T09:47:18.581Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ISport.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\ISport.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\ISport.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\ISport.cs",
+              "RelativeToolTip": "AbstractFactory\\ISport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T09:45:43.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGame.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\IGame.cs",
+              "RelativeDocumentMoniker": "AbstractFactory\\IGame.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\IGame.cs",
+              "RelativeToolTip": "AbstractFactory\\IGame.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T09:45:02.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Program.cs",
               "RelativeDocumentMoniker": "AbstractFactory\\Program.cs",
               "ToolTip": "C:\\CSharp\\DesignPatterns\\Creational\\AbstractFactory\\AbstractFactory\\AbstractFactory\\Program.cs",
               "RelativeToolTip": "AbstractFactory\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-09-08T19:01:03.594Z",
               "EditorCaption": ""

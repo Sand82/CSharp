@@ -1,27 +1,8 @@
-﻿using Builder;
-using Builder.Animals;
+﻿var house = new HouseBuilder()
+    .WithFoundation("Concrete")
+    .WithStructure("Wood")
+    .WithRoof("Shingles")
+    .WithGarage(true)
+    .Build();
 
-namespace Bulder
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {           
-            AnimalType animalType;
-            
-            ZOO zoo = new ZOO();
-
-            animalType = new Dog();
-            zoo.Describe(animalType);
-            animalType.Animal.Show();
-
-            animalType = new Snake();
-            zoo.Describe(animalType);
-            animalType.Animal.Show();
-
-            animalType = new Eagle();
-            zoo.Describe(animalType);
-            animalType.Animal.Show();
-        }
-    }
-}
+Console.WriteLine(house);

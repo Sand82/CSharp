@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Bridge\\Program.cs",
               "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Bridge\\Bridge\\Program.cs",
               "RelativeToolTip": "Bridge\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-04T18:14:41.062Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Bridge\\AdvancedRemoteControl.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T18:13:06.953Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T18:13:06.953Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Bridge\\RemoteControl.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAABgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T18:06:34.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T18:06:34.744Z"
             }
           ]
         }

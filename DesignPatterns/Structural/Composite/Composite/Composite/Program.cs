@@ -1,44 +1,14 @@
-﻿namespace Composite
-{
-    public class Program
-    {
-        static void Main(string[] args)
-        { 
-            var mainComponent = new MainComponent();
+﻿using Composite;
 
-            var setComponent = Setup(mainComponent);
+using File = Composite.File;
 
-            Client(setComponent);
-        }
+var root = new Folder("Root");
+root.Add(new File("file1.txt"));
+root.Add(new File("file2.txt"));
 
-        private static void Client(MainComponent mainComponent)
-        {
-            Console.WriteLine(mainComponent.GetNumber());
-        }
+var subFolder = new Folder("SubFolder");
+subFolder.Add(new File("file3.txt"));
 
-        private static MainComponent Setup(MainComponent mainComponent)
-        {
-            var firstLeaf = new LeafOne();
-            var secondLeaf = new LeafTwo();
-            var thirdLeaf = new LeafThree();
-            var fourthLeaf = new LeafFour();
-            var fifthLeaf = new LeafFive();
-            var sixthLeaf = new LeafSix();
+root.Add(subFolder);
 
-            var firstComponent = new ComponentOne();
-            firstComponent.AddChild(firstLeaf);
-            firstComponent.AddChild(secondLeaf);
-            firstComponent.AddChild(thirdLeaf);
-
-            var secondComponent = new ComponentTwo();
-            secondComponent.AddChild(fourthLeaf);
-            secondComponent.AddChild(fifthLeaf);
-            secondComponent.AddChild(sixthLeaf);
-
-            mainComponent.AddChild(firstComponent);
-            mainComponent.AddChild(secondComponent);
-
-            return mainComponent;
-        }
-    }
-}
+root.Display(1);

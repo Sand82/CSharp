@@ -50,8 +50,7 @@
               "RelativeToolTip": "Decorator\\SMSNotifier.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T08:07:35.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T08:07:35.346Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "Decorator\\EmailNotifier.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T08:05:12.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T08:05:12.544Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "Decorator\\NotifierDecorator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T08:03:17.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T08:03:17.229Z"
             },
             {
               "$type": "Document",
@@ -89,8 +86,7 @@
               "RelativeToolTip": "Decorator\\BaseNotifier.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T08:02:10.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T08:02:10.903Z"
             },
             {
               "$type": "Document",
@@ -102,8 +98,7 @@
               "RelativeToolTip": "Decorator\\INotifier.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T08:01:10.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-26T08:01:10.813Z"
             },
             {
               "$type": "Document",
@@ -113,7 +108,7 @@
               "RelativeDocumentMoniker": "Decorator\\Program.cs",
               "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Decorator\\Decorator\\Program.cs",
               "RelativeToolTip": "Decorator\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAqwAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-26T08:00:42.235Z",
               "EditorCaption": ""

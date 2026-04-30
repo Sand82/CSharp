@@ -1,11 +1,33 @@
 ﻿using Decorator;
 
-INotifier notifier = new BaseNotifier();
+var baseNotifier = new BaseNotifier();
 
-notifier = new EmailNotifier(notifier);
+while (true)
+{
+    Console.WriteLine("------ New Message ------");
 
-notifier.Send("Hello from Email decorator");
+    Console.WriteLine("Send message via SMS or Email");
 
-notifier = new SMSNotifier(notifier);
+    var notifierType = Console.ReadLine()!;
 
-notifier.Send("Hello from SMS decorator");
+    INotifier notifier;
+
+    if (notifierType.ToLower() == "email")
+    {
+        notifier = new EmailNotifier(baseNotifier);
+    }
+    else if (notifierType.ToLower() == "sms")
+    {
+        notifier = new SMSNotifier(baseNotifier);
+    }
+    else
+    {
+        break;
+    }
+
+    Console.WriteLine("What should be the message?");
+
+    var messageToSend = Console.ReadLine()!;
+
+    notifier.Send(messageToSend);
+}

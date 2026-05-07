@@ -7,28 +7,16 @@
       "RelativeMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|solutionrelative:proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|c:\\csharp\\designpatterns\\structural\\proxy\\proxy\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|solutionrelative:proxy\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|c:\\csharp\\designpatterns\\structural\\proxy\\proxy\\proxiimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|solutionrelative:proxy\\proxiimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|c:\\csharp\\designpatterns\\structural\\proxy\\proxy\\cachedlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|solutionrelative:proxy\\cachedlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|c:\\csharp\\designpatterns\\structural\\proxy\\proxy\\realimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|solutionrelative:proxy\\realimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|c:\\csharp\\designpatterns\\structural\\proxy\\proxy\\outsidelibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|solutionrelative:proxy\\outsidelibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|c:\\csharp\\designpatterns\\structural\\proxy\\proxy\\bookcasedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|solutionrelative:proxy\\bookcasedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|c:\\csharp\\designpatterns\\structural\\proxy\\proxy\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|solutionrelative:proxy\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|c:\\csharp\\designpatterns\\structural\\proxy\\proxy\\ilibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|solutionrelative:proxy\\ilibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|c:\\csharp\\designpatterns\\structural\\proxy\\proxy\\iimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|solutionrelative:proxy\\iimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,84 +26,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BookManager.cs",
-              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\BookManager.cs",
-              "RelativeDocumentMoniker": "Proxy\\BookManager.cs",
-              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\BookManager.cs",
-              "RelativeToolTip": "Proxy\\BookManager.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAuwCMAAAAJAAAA",
+              "Title": "ProxiImage.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\ProxiImage.cs",
+              "RelativeDocumentMoniker": "Proxy\\ProxiImage.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\ProxiImage.cs",
+              "RelativeToolTip": "Proxy\\ProxiImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T15:16:31.527Z",
+              "WhenOpened": "2026-05-07T07:58:35.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CachedLibrary.cs",
-              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\CachedLibrary.cs",
-              "RelativeDocumentMoniker": "Proxy\\CachedLibrary.cs",
-              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\CachedLibrary.cs",
-              "RelativeToolTip": "Proxy\\CachedLibrary.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Title": "RealImage.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\RealImage.cs",
+              "RelativeDocumentMoniker": "Proxy\\RealImage.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\RealImage.cs",
+              "RelativeToolTip": "Proxy\\RealImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T15:01:58.49Z",
+              "WhenOpened": "2026-05-07T07:56:03.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OutsideLibrary.cs",
-              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\OutsideLibrary.cs",
-              "RelativeDocumentMoniker": "Proxy\\OutsideLibrary.cs",
-              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\OutsideLibrary.cs",
-              "RelativeToolTip": "Proxy\\OutsideLibrary.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Title": "IImage.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\IImage.cs",
+              "RelativeDocumentMoniker": "Proxy\\IImage.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\IImage.cs",
+              "RelativeToolTip": "Proxy\\IImage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T14:50:26.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BookCaseDatabase.cs",
-              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\BookCaseDatabase.cs",
-              "RelativeDocumentMoniker": "Proxy\\BookCaseDatabase.cs",
-              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\BookCaseDatabase.cs",
-              "RelativeToolTip": "Proxy\\BookCaseDatabase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T07:19:01.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\Book.cs",
-              "RelativeDocumentMoniker": "Proxy\\Book.cs",
-              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\Book.cs",
-              "RelativeToolTip": "Proxy\\Book.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAIA9wBMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T07:16:46.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ILibrary.cs",
-              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\ILibrary.cs",
-              "RelativeDocumentMoniker": "Proxy\\ILibrary.cs",
-              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\ILibrary.cs",
-              "RelativeToolTip": "Proxy\\ILibrary.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T07:16:10.09Z",
+              "WhenOpened": "2026-05-07T07:55:29.285Z",
               "EditorCaption": ""
             },
             {
@@ -126,7 +79,7 @@
               "RelativeDocumentMoniker": "Proxy\\Program.cs",
               "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\Program.cs",
               "RelativeToolTip": "Proxy\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-09-09T19:30:33.327Z",
               "EditorCaption": ""

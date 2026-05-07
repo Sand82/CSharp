@@ -1,14 +1,12 @@
-﻿namespace Proxy
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            var libraryService = new OutsideLibrary();
-            var proxyLibrary = new CachedLibrary(libraryService);
+﻿using Proxy;
 
-            var libraryManager = new BookManager(proxyLibrary);
-            libraryManager.SetAllFunctionalities();
-        }       
-    }
-}
+var image = new ProxiImage("photo.png");
+
+Console.WriteLine("------ Created Image-------");
+Console.WriteLine();
+
+image.Display();
+
+Console.WriteLine();
+
+image.Display();

@@ -1,11 +1,11 @@
 ﻿namespace Proxy;
 
-public class ProxiImage : IImage
+public class ProxyImage : IImage
 {
     private IImage? realImage;
     private string? fileName;
 
-    public ProxiImage(string? fileName)
+    public ProxyImage(string? fileName)
     {
         this.fileName = fileName;
     }

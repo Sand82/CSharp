@@ -1,6 +1,6 @@
 ﻿using Proxy;
 
-var image = new ProxiImage("photo.png");
+var image = new ProxyImage("photo.png");
 
 Console.WriteLine("------ Created Image-------");
 Console.WriteLine();

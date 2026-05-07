@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|c:\\csharp\\designpatterns\\structural\\proxy\\proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|solutionrelative:proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|c:\\csharp\\designpatterns\\structural\\proxy\\proxy\\proxyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|solutionrelative:proxy\\proxyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|c:\\csharp\\designpatterns\\structural\\proxy\\proxy\\proxiimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|solutionrelative:proxy\\proxiimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|c:\\csharp\\designpatterns\\structural\\proxy\\proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|solutionrelative:proxy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68869519-C66E-42EC-948F-39EBC04498F9}|Proxy\\Proxy.csproj|c:\\csharp\\designpatterns\\structural\\proxy\\proxy\\realimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,12 +34,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProxiImage.cs",
-              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\ProxiImage.cs",
-              "RelativeDocumentMoniker": "Proxy\\ProxiImage.cs",
-              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\ProxiImage.cs",
-              "RelativeToolTip": "Proxy\\ProxiImage.cs",
+              "DocumentIndex": 0,
+              "Title": "ProxyImage.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\ProxyImage.cs",
+              "RelativeDocumentMoniker": "Proxy\\ProxyImage.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\ProxyImage.cs",
+              "RelativeToolTip": "Proxy\\ProxyImage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-07T07:58:35.032Z",
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Proxy\\Proxy\\Program.cs",
               "RelativeDocumentMoniker": "Proxy\\Program.cs",

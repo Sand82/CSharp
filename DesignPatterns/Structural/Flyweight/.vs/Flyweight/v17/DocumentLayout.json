@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{D04DD53D-7D36-4170-A735-3271DB5B14E9}|Flyweight\\Flyweight.csproj|solutionrelative:flyweight\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D04DD53D-7D36-4170-A735-3271DB5B14E9}|Flyweight\\Flyweight.csproj|c:\\csharp\\designpatterns\\structural\\flyweight\\flyweight\\characterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D04DD53D-7D36-4170-A735-3271DB5B14E9}|Flyweight\\Flyweight.csproj|solutionrelative:flyweight\\characterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D04DD53D-7D36-4170-A735-3271DB5B14E9}|Flyweight\\Flyweight.csproj|c:\\csharp\\designpatterns\\structural\\flyweight\\flyweight\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D04DD53D-7D36-4170-A735-3271DB5B14E9}|Flyweight\\Flyweight.csproj|solutionrelative:flyweight\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D04DD53D-7D36-4170-A735-3271DB5B14E9}|Flyweight\\Flyweight.csproj|c:\\csharp\\designpatterns\\structural\\flyweight\\flyweight\\characterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D04DD53D-7D36-4170-A735-3271DB5B14E9}|Flyweight\\Flyweight.csproj|solutionrelative:flyweight\\characterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CharacterFactory.cs",
               "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Flyweight\\Flyweight\\CharacterFactory.cs",
               "RelativeDocumentMoniker": "Flyweight\\CharacterFactory.cs",
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Flyweight\\Flyweight\\Character.cs",
               "RelativeDocumentMoniker": "Flyweight\\Character.cs",
@@ -60,9 +60,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Structural\\Flyweight\\Flyweight\\Program.cs",
               "RelativeDocumentMoniker": "Flyweight\\Program.cs",
-              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Flyweight\\Flyweight\\Program.cs",
-              "RelativeToolTip": "Flyweight\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Structural\\Flyweight\\Flyweight\\Program.cs*",
+              "RelativeToolTip": "Flyweight\\Program.cs*",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T20:07:33.359Z",
               "EditorCaption": ""

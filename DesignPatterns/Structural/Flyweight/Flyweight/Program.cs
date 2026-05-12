@@ -1,12 +1,44 @@
 ﻿using Flyweight;
 
-var factory = new CharacterFactory();
+var characterFactory = new CharacterFactory();
 
-var text = "ACABBCABBA";
+var input = "ABBACCCABCAAABBCC";
 
-foreach (char c in text)
+foreach (var item in input)
 {
-    var character = factory.GetCharacter(c);
+    var character = characterFactory.GetCharacter(item);
+    var fontSize = GetFontSize(item);
+    var color = GetColor(item);
 
-    character.Display(fontSize: 12, color: "Black");
+    character.Display(fontSize, color);
+}
+
+int GetFontSize(char character)
+{
+    switch (character)
+    {
+        case 'A':
+            return 10;
+        case 'B':
+            return 11;
+        case 'C':
+            return 12;
+        default:
+            return 16;
+    }
+}
+
+string GetColor(char character)
+{
+    switch (character)
+    {
+        case 'A':
+            return "Red";
+        case 'B':
+            return "Blue";
+        case 'C':
+            return "Black";
+        default:
+            return "Green";
+    }
 }

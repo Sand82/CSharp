@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CSharp\\DesignPatterns\\Behavioral\\Iterator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B81D39B-7B61-463C-82F8-A412CFD67EAC}|Iterator\\Iterator.csproj|c:\\csharp\\designpatterns\\behavioral\\iterator\\iterator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B81D39B-7B61-463C-82F8-A412CFD67EAC}|Iterator\\Iterator.csproj|solutionrelative:iterator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B81D39B-7B61-463C-82F8-A412CFD67EAC}|Iterator\\Iterator.csproj|c:\\csharp\\designpatterns\\behavioral\\iterator\\iterator\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B81D39B-7B61-463C-82F8-A412CFD67EAC}|Iterator\\Iterator.csproj|solutionrelative:iterator\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B81D39B-7B61-463C-82F8-A412CFD67EAC}|Iterator\\Iterator.csproj|c:\\csharp\\designpatterns\\behavioral\\iterator\\iterator\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B81D39B-7B61-463C-82F8-A412CFD67EAC}|Iterator\\Iterator.csproj|solutionrelative:iterator\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Iterator\\Iterator\\Company.cs",
+              "RelativeDocumentMoniker": "Iterator\\Company.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Iterator\\Iterator\\Company.cs",
+              "RelativeToolTip": "Iterator\\Company.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T09:04:58.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Iterator\\Iterator\\Employee.cs",
+              "RelativeDocumentMoniker": "Iterator\\Employee.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Iterator\\Iterator\\Employee.cs",
+              "RelativeToolTip": "Iterator\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T08:57:00.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Iterator\\Iterator\\Program.cs",
+              "RelativeDocumentMoniker": "Iterator\\Program.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Iterator\\Iterator\\Program.cs",
+              "RelativeToolTip": "Iterator\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwCQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T08:56:48.897Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

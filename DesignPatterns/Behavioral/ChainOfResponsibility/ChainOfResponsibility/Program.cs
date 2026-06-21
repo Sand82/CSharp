@@ -7,24 +7,14 @@ var critical = new CriticalSupportHandler();
 basic.SetNext(technical);
 technical.SetNext(critical);
 
-var request1 = new SupportRequest
-{
-    Message = "Password reset",
-    Severity = 1
+var requests = new List<SupportRequest> {
+    new SupportRequest { Name = "Base", Value = 1 }, 
+    new SupportRequest { Name = "Technical", Value = 2 }, 
+    new SupportRequest { Name = "Critical", Value = 3 }, 
+    new SupportRequest { Name = "Error", Value = 4 } 
 };
 
-var request2 = new SupportRequest
+foreach (var request in requests)
 {
-    Message = "Server bug",
-    Severity = 2
-};
-
-var request3 = new SupportRequest
-{
-    Message = "Production outage",
-    Severity = 3
-};
-
-basic.HandleRequest(request1);
-basic.HandleRequest(request2);
-basic.HandleRequest(request3);
+    basic.HandleReqeust(request);
+}

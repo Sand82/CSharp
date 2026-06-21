@@ -6,9 +6,11 @@ namespace Singleton
     {
         public static void Main(string[] args)
         {
-            Singleton singleton = Singleton.Instance;            
+            Singleton singletonOne = Singleton.Instance;
 
-            singleton.DoWork();            
+            Singleton singletonOTwo = Singleton.Instance;
+
+            Singleton singletonThree = Singleton.Instance;         
         }
     }
 }

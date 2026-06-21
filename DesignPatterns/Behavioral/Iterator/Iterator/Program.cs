@@ -8,7 +8,8 @@ var company = new Company()
     new Employee("Sarah", "HR"),
     new Employee("Sand", "Management"),
     new Employee("Misho", "Development"),
-    new Employee("Lubo", "Support")
+    new Employee("Lubo", "Support"),
+    new Employee("Maria", "Support")
 };
 
 Console.WriteLine("All Employees");

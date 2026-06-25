@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CSharp\\DesignPatterns\\Behavioral\\Mediator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E00158B5-9C4C-48EB-A58F-70D582491878}|Mediator\\Mediator.csproj|c:\\csharp\\designpatterns\\behavioral\\mediator\\mediator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00158B5-9C4C-48EB-A58F-70D582491878}|Mediator\\Mediator.csproj|solutionrelative:mediator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00158B5-9C4C-48EB-A58F-70D582491878}|Mediator\\Mediator.csproj|c:\\csharp\\designpatterns\\behavioral\\mediator\\mediator\\controltower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00158B5-9C4C-48EB-A58F-70D582491878}|Mediator\\Mediator.csproj|solutionrelative:mediator\\controltower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00158B5-9C4C-48EB-A58F-70D582491878}|Mediator\\Mediator.csproj|c:\\csharp\\designpatterns\\behavioral\\mediator\\mediator\\airplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00158B5-9C4C-48EB-A58F-70D582491878}|Mediator\\Mediator.csproj|solutionrelative:mediator\\airplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E00158B5-9C4C-48EB-A58F-70D582491878}|Mediator\\Mediator.csproj|c:\\csharp\\designpatterns\\behavioral\\mediator\\mediator\\icontroltower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E00158B5-9C4C-48EB-A58F-70D582491878}|Mediator\\Mediator.csproj|solutionrelative:mediator\\icontroltower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ControlTower.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Mediator\\Mediator\\ControlTower.cs",
+              "RelativeDocumentMoniker": "Mediator\\ControlTower.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Mediator\\Mediator\\ControlTower.cs",
+              "RelativeToolTip": "Mediator\\ControlTower.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T16:25:19.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Airplane.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Mediator\\Mediator\\Airplane.cs",
+              "RelativeDocumentMoniker": "Mediator\\Airplane.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Mediator\\Mediator\\Airplane.cs",
+              "RelativeToolTip": "Mediator\\Airplane.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T16:21:23.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IControlTower.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Mediator\\Mediator\\IControlTower.cs",
+              "RelativeDocumentMoniker": "Mediator\\IControlTower.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Mediator\\Mediator\\IControlTower.cs",
+              "RelativeToolTip": "Mediator\\IControlTower.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T16:20:31.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Mediator\\Mediator\\Program.cs",
+              "RelativeDocumentMoniker": "Mediator\\Program.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Mediator\\Mediator\\Program.cs",
+              "RelativeToolTip": "Mediator\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T16:01:56.92Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

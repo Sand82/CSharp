@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CSharp\\DesignPatterns\\Behavioral\\Memento\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28CABD13-A34D-43AF-8F80-011B75129E57}|Memento\\Memento.csproj|c:\\csharp\\designpatterns\\behavioral\\memento\\memento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CABD13-A34D-43AF-8F80-011B75129E57}|Memento\\Memento.csproj|solutionrelative:memento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CABD13-A34D-43AF-8F80-011B75129E57}|Memento\\Memento.csproj|c:\\csharp\\designpatterns\\behavioral\\memento\\memento\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CABD13-A34D-43AF-8F80-011B75129E57}|Memento\\Memento.csproj|solutionrelative:memento\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CABD13-A34D-43AF-8F80-011B75129E57}|Memento\\Memento.csproj|c:\\csharp\\designpatterns\\behavioral\\memento\\memento\\texteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CABD13-A34D-43AF-8F80-011B75129E57}|Memento\\Memento.csproj|solutionrelative:memento\\texteditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28CABD13-A34D-43AF-8F80-011B75129E57}|Memento\\Memento.csproj|c:\\csharp\\designpatterns\\behavioral\\memento\\memento\\texteditormemento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28CABD13-A34D-43AF-8F80-011B75129E57}|Memento\\Memento.csproj|solutionrelative:memento\\texteditormemento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "History.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Memento\\Memento\\History.cs",
+              "RelativeDocumentMoniker": "Memento\\History.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Memento\\Memento\\History.cs",
+              "RelativeToolTip": "Memento\\History.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T18:45:15.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TextEditorMemento.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Memento\\Memento\\TextEditorMemento.cs",
+              "RelativeDocumentMoniker": "Memento\\TextEditorMemento.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Memento\\Memento\\TextEditorMemento.cs",
+              "RelativeToolTip": "Memento\\TextEditorMemento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T18:39:00.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TextEditor.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Memento\\Memento\\TextEditor.cs",
+              "RelativeDocumentMoniker": "Memento\\TextEditor.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Memento\\Memento\\TextEditor.cs",
+              "RelativeToolTip": "Memento\\TextEditor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T18:36:07.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Memento\\Memento\\Program.cs",
+              "RelativeDocumentMoniker": "Memento\\Program.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Memento\\Memento\\Program.cs",
+              "RelativeToolTip": "Memento\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T18:35:45.289Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CSharp\\DesignPatterns\\Behavioral\\Observer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{094BEA69-4B60-4C99-88C6-5E4F79757408}|Observer\\Observer.csproj|c:\\csharp\\designpatterns\\behavioral\\observer\\observer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094BEA69-4B60-4C99-88C6-5E4F79757408}|Observer\\Observer.csproj|solutionrelative:observer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{094BEA69-4B60-4C99-88C6-5E4F79757408}|Observer\\Observer.csproj|c:\\csharp\\designpatterns\\behavioral\\observer\\observer\\tvdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094BEA69-4B60-4C99-88C6-5E4F79757408}|Observer\\Observer.csproj|solutionrelative:observer\\tvdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{094BEA69-4B60-4C99-88C6-5E4F79757408}|Observer\\Observer.csproj|c:\\csharp\\designpatterns\\behavioral\\observer\\observer\\phonedisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094BEA69-4B60-4C99-88C6-5E4F79757408}|Observer\\Observer.csproj|solutionrelative:observer\\phonedisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{094BEA69-4B60-4C99-88C6-5E4F79757408}|Observer\\Observer.csproj|c:\\csharp\\designpatterns\\behavioral\\observer\\observer\\weatherstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094BEA69-4B60-4C99-88C6-5E4F79757408}|Observer\\Observer.csproj|solutionrelative:observer\\weatherstation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{094BEA69-4B60-4C99-88C6-5E4F79757408}|Observer\\Observer.csproj|c:\\csharp\\designpatterns\\behavioral\\observer\\observer\\isubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094BEA69-4B60-4C99-88C6-5E4F79757408}|Observer\\Observer.csproj|solutionrelative:observer\\isubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{094BEA69-4B60-4C99-88C6-5E4F79757408}|Observer\\Observer.csproj|c:\\csharp\\designpatterns\\behavioral\\observer\\observer\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094BEA69-4B60-4C99-88C6-5E4F79757408}|Observer\\Observer.csproj|solutionrelative:observer\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TVDisplay.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Observer\\Observer\\TVDisplay.cs",
+              "RelativeDocumentMoniker": "Observer\\TVDisplay.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Observer\\Observer\\TVDisplay.cs",
+              "RelativeToolTip": "Observer\\TVDisplay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T10:20:43.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhoneDisplay.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Observer\\Observer\\PhoneDisplay.cs",
+              "RelativeDocumentMoniker": "Observer\\PhoneDisplay.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Observer\\Observer\\PhoneDisplay.cs",
+              "RelativeToolTip": "Observer\\PhoneDisplay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T10:19:52.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherStation.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Observer\\Observer\\WeatherStation.cs",
+              "RelativeDocumentMoniker": "Observer\\WeatherStation.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Observer\\Observer\\WeatherStation.cs",
+              "RelativeToolTip": "Observer\\WeatherStation.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T10:15:17.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISubject.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Observer\\Observer\\ISubject.cs",
+              "RelativeDocumentMoniker": "Observer\\ISubject.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Observer\\Observer\\ISubject.cs",
+              "RelativeToolTip": "Observer\\ISubject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T10:14:07.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IObserver.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Observer\\Observer\\IObserver.cs",
+              "RelativeDocumentMoniker": "Observer\\IObserver.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Observer\\Observer\\IObserver.cs",
+              "RelativeToolTip": "Observer\\IObserver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T10:13:01.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CSharp\\DesignPatterns\\Behavioral\\Observer\\Observer\\Program.cs",
+              "RelativeDocumentMoniker": "Observer\\Program.cs",
+              "ToolTip": "C:\\CSharp\\DesignPatterns\\Behavioral\\Observer\\Observer\\Program.cs",
+              "RelativeToolTip": "Observer\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T10:12:46.791Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

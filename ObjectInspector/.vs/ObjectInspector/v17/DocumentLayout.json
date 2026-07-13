@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CSharp\\ObjectInspector\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68FEF4D0-87B8-426C-8579-1F8F8E9D64B3}|ObjectInspector\\ObjectInspector.csproj|c:\\csharp\\objectinspector\\objectinspector\\inspector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68FEF4D0-87B8-426C-8579-1F8F8E9D64B3}|ObjectInspector\\ObjectInspector.csproj|solutionrelative:objectinspector\\inspector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68FEF4D0-87B8-426C-8579-1F8F8E9D64B3}|ObjectInspector\\ObjectInspector.csproj|c:\\csharp\\objectinspector\\objectinspector\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68FEF4D0-87B8-426C-8579-1F8F8E9D64B3}|ObjectInspector\\ObjectInspector.csproj|solutionrelative:objectinspector\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68FEF4D0-87B8-426C-8579-1F8F8E9D64B3}|ObjectInspector\\ObjectInspector.csproj|c:\\csharp\\objectinspector\\objectinspector\\iprintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68FEF4D0-87B8-426C-8579-1F8F8E9D64B3}|ObjectInspector\\ObjectInspector.csproj|solutionrelative:objectinspector\\iprintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68FEF4D0-87B8-426C-8579-1F8F8E9D64B3}|ObjectInspector\\ObjectInspector.csproj|c:\\csharp\\objectinspector\\objectinspector\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68FEF4D0-87B8-426C-8579-1F8F8E9D64B3}|ObjectInspector\\ObjectInspector.csproj|solutionrelative:objectinspector\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPrintable.cs",
+              "DocumentMoniker": "C:\\CSharp\\ObjectInspector\\ObjectInspector\\IPrintable.cs",
+              "RelativeDocumentMoniker": "ObjectInspector\\IPrintable.cs",
+              "ToolTip": "C:\\CSharp\\ObjectInspector\\ObjectInspector\\IPrintable.cs",
+              "RelativeToolTip": "ObjectInspector\\IPrintable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T17:47:15.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\CSharp\\ObjectInspector\\ObjectInspector\\Person.cs",
+              "RelativeDocumentMoniker": "ObjectInspector\\Person.cs",
+              "ToolTip": "C:\\CSharp\\ObjectInspector\\ObjectInspector\\Person.cs",
+              "RelativeToolTip": "ObjectInspector\\Person.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAYwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T17:35:53.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Inspector.cs",
+              "DocumentMoniker": "C:\\CSharp\\ObjectInspector\\ObjectInspector\\Inspector.cs",
+              "RelativeDocumentMoniker": "ObjectInspector\\Inspector.cs",
+              "ToolTip": "C:\\CSharp\\ObjectInspector\\ObjectInspector\\Inspector.cs",
+              "RelativeToolTip": "ObjectInspector\\Inspector.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T17:31:33.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CSharp\\ObjectInspector\\ObjectInspector\\Program.cs",
+              "RelativeDocumentMoniker": "ObjectInspector\\Program.cs",
+              "ToolTip": "C:\\CSharp\\ObjectInspector\\ObjectInspector\\Program.cs",
+              "RelativeToolTip": "ObjectInspector\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T17:31:01.949Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

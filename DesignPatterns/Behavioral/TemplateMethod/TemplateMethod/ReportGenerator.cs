@@ -6,6 +6,8 @@ public abstract class ReportGenerator
     {
         Console.WriteLine("Start report generation...");
         LoadData();
+        ProcessData();
+        ExportData();
 
         Console.WriteLine("Report generation complete.");
     }

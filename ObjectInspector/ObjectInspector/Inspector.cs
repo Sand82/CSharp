@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 
@@ -21,6 +22,75 @@ public static class Inspector
 
         PrintTitle("Object Fields", 15);
         GetFieldsInfo(objInfo, obj);
+
+        PrintTitle("Object Fields", 15);
+        GetMethods(objInfo, obj);
+
+        PrintTitle("Object Interfaces", 15);
+        GetInterfaces(objInfo);
+
+        PrintTitle("Get custom attributes", 25);
+        GetCustomAttributes(objInfo, obj);
+    }
+
+    private static void GetCustomAttributes(Type objInfo, object obj)
+    {
+        var attribute = objInfo.GetCustomAttribute<AgeAttribute>();
+
+        int value = attribute.Age;
+
+        var ageSeter = objInfo.GetProperty("Age");
+
+        ageSeter.SetValue(obj, value);        
+    }
+
+    private static void GetInterfaces(Type type)
+    {
+        var interfaces = type.GetInterfaces();
+
+        foreach (var item in interfaces)
+        {
+            Console.WriteLine(item.Name);
+
+            var members = item.GetMembers();
+
+
+            foreach (var item1 in members)
+            {
+                Console.WriteLine(item1.Name);
+            }
+        }
+    }
+
+    private static void GetMethods(Type objInfo, object obj)
+    {
+        var defaultMethods = new object()
+            .GetType()
+            .GetMethods(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
+
+        var methods = objInfo
+            .GetMethods(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public)
+            .Where(x => !x.IsSpecialName && !defaultMethods.Any(y => x.Name == y.Name))            
+            .ToArray();
+
+        foreach (var method in methods)
+        {
+            Console.WriteLine(method.Name);
+        }
+
+        PrintTitle("Assign private method value and execute it.", 40);
+
+        var privateMethods = objInfo
+            .GetMethod("WorkingCompany", BindingFlags.Instance | BindingFlags.NonPublic);
+
+        var personTwo = new Person();
+
+        object[] parameters = { "newCompany" };
+
+        object result = privateMethods.Invoke(personTwo, parameters );        
+
+        Console.WriteLine(result);
+
     }
 
     private static void GetFieldsInfo(Type objInfo, object obj)

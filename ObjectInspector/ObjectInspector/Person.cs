@@ -1,9 +1,13 @@
-﻿namespace ObjectInspector;
+﻿using System.Net.Http.Headers;
+using System.Threading.Channels;
 
-[Serializable]
-public class Person
+namespace ObjectInspector;
+
+[AgeAttribute(44)]
+public class Person : IPerson, IPrintable
 {
     private Guid id = Guid.NewGuid();
+    private int age = 20;
     public Person()
     {
         
@@ -16,7 +20,11 @@ public class Person
     }
     public string? FirstName { get; set; }
     public string? LastName { get; set; }
-    public int Age { get; set; }
+    public int Age 
+    {
+        get { return age; }
+        set => Console.WriteLine(value); 
+    }
 
     public string GetFullName()
     {
@@ -26,5 +34,10 @@ public class Person
     public void Print()
     {
         Console.WriteLine(GetFullName());
+    }
+
+    private void WorkingCompany(string company)
+    {
+        Console.WriteLine($"Person working company {company}");
     }
 }

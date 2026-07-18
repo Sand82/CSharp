@@ -11,26 +11,62 @@ public static class Inspector
     {
         var objInfo = obj.GetType();
 
-        PrintTitle("Object Type", 10);
-        GetObjectInfo(objInfo);
+        //PrintTitle("Object Type", 10);
+        //GetObjectInfo(objInfo);
 
-        PrintTitle("Object Constructors");
-        GetConstructorInfo(objInfo);
+        //PrintTitle("Object Constructors");
+        //GetConstructorInfo(objInfo);
 
-        PrintTitle("Object Properties");
-        GetPropertiesInfo(objInfo, obj);
+        //PrintTitle("Object Properties");
+        //GetPropertiesInfo(objInfo, obj);
 
-        PrintTitle("Object Fields", 15);
-        GetFieldsInfo(objInfo, obj);
+        //PrintTitle("Object Fields", 15);
+        //GetFieldsInfo(objInfo, obj);
 
-        PrintTitle("Object Fields", 15);
-        GetMethods(objInfo, obj);
+        //PrintTitle("Object Fields", 15);
+        //GetMethods(objInfo, obj);
 
-        PrintTitle("Object Interfaces", 15);
-        GetInterfaces(objInfo);
+        //PrintTitle("Object Interfaces", 15);
+        //GetInterfaces(objInfo);
 
-        PrintTitle("Get custom attributes", 25);
-        GetCustomAttributes(objInfo, obj);
+        //PrintTitle("Get custom attributes", 25);
+        //GetCustomAttributes(objInfo, obj);
+
+        //PrintTitle("Create new instance");
+        //CreateNewInstance(objInfo);
+
+        PrintTitle("Create JSON Serializer");
+        JSONConvector(new Employee("Sand", "Stefanov", 44));
+    }
+
+    private static void JSONConvector(Object obj)
+    {
+        var objType = obj.GetType();
+
+        var properties = objType.GetProperties();
+
+        foreach (var item in properties)
+        {
+            Console.WriteLine(item.Name);
+            Console.WriteLine(item.GetValue(obj));
+        }
+
+
+    }
+
+    private static void CreateNewInstance(Type objInfo)
+    {                
+        var assemblyInfo = Assembly.GetExecutingAssembly();
+
+        var assemblyName = assemblyInfo.GetName().Name;
+
+        var type = assemblyInfo.GetType().Name;
+
+        var instance = Activator.CreateInstance(objInfo);
+
+        Console.WriteLine(assemblyName);
+        Console.WriteLine(type);
+        Console.WriteLine(instance);
     }
 
     private static void GetCustomAttributes(Type objInfo, object obj)

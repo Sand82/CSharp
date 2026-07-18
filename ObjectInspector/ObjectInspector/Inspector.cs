@@ -39,19 +39,37 @@ public static class Inspector
         JSONConvector(new Employee("Sand", "Stefanov", 44));
     }
 
-    private static void JSONConvector(Object obj)
+    private static string JSONConvector(Object obj)
     {
         var objType = obj.GetType();
 
         var properties = objType.GetProperties();
 
+        var sb = new StringBuilder();
+
+        sb.AppendLine("{");        
+
+        var counter = 0;
+
         foreach (var item in properties)
-        {
-            Console.WriteLine(item.Name);
-            Console.WriteLine(item.GetValue(obj));
+        {  
+            counter ++;            
+
+            var valueBuilder = ValueBuilder(item.GetValue(obj), item.PropertyType.Name);            
+
+            sb.Append($"  \"{item.Name}\": {valueBuilder}");
+
+            if (counter < properties.Length)
+            {
+                sb.AppendLine(",");
+            }            
         }
+        sb.AppendLine();
+        sb.AppendLine("}");
 
+        Console.WriteLine(sb.ToString());
 
+        return sb.ToString();
     }
 
     private static void CreateNewInstance(Type objInfo)
@@ -206,5 +224,34 @@ public static class Inspector
         Console.WriteLine(new string('*', delimitersCount));
         Console.WriteLine(title);
         Console.WriteLine(new string('*', delimitersCount));
+    }
+
+    private static Object ValueBuilder(object value, string propertyType)
+    {
+        if (propertyType == "String")
+        {
+            if (value == null)
+            {
+                value = "null";
+            }
+            else
+            {
+                var stringEscapeValue = value.ToString().Replace('"', '\"');
+
+                value = $"\"{value}\"";
+            }
+        }
+
+        if (propertyType == "Boolean")
+        {
+            value = value.ToString().ToLower();
+        }
+
+        if (propertyType == "Double")
+        {
+            value = value.ToString().Replace(',', '.');
+        }
+
+        return value;
     }
 }

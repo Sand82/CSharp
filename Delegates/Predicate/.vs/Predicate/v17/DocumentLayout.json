@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CSharp\\Delegates\\Predicate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB3F6343-930A-4715-BF56-D3C719CB839A}|Predicate\\Predicate.csproj|c:\\csharp\\delegates\\predicate\\predicate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB3F6343-930A-4715-BF56-D3C719CB839A}|Predicate\\Predicate.csproj|solutionrelative:predicate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB3F6343-930A-4715-BF56-D3C719CB839A}|Predicate\\Predicate.csproj|c:\\csharp\\delegates\\predicate\\predicate\\lengthchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB3F6343-930A-4715-BF56-D3C719CB839A}|Predicate\\Predicate.csproj|solutionrelative:predicate\\lengthchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LengthChecker.cs",
+              "DocumentMoniker": "C:\\CSharp\\Delegates\\Predicate\\Predicate\\LengthChecker.cs",
+              "RelativeDocumentMoniker": "Predicate\\LengthChecker.cs",
+              "ToolTip": "C:\\CSharp\\Delegates\\Predicate\\Predicate\\LengthChecker.cs",
+              "RelativeToolTip": "Predicate\\LengthChecker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T13:10:22.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CSharp\\Delegates\\Predicate\\Predicate\\Program.cs",
+              "RelativeDocumentMoniker": "Predicate\\Program.cs",
+              "ToolTip": "C:\\CSharp\\Delegates\\Predicate\\Predicate\\Program.cs",
+              "RelativeToolTip": "Predicate\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T07:01:55.588Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

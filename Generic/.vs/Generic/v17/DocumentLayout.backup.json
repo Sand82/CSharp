@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\astefanov9\\Desktop\\Generics\\Generic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0F3DF2A-C357-44E0-A28E-7C90B5B2CE28}|Generic\\Generic.csproj|c:\\users\\astefanov9\\desktop\\generics\\generic\\generic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0F3DF2A-C357-44E0-A28E-7C90B5B2CE28}|Generic\\Generic.csproj|solutionrelative:generic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0F3DF2A-C357-44E0-A28E-7C90B5B2CE28}|Generic\\Generic.csproj|c:\\users\\astefanov9\\desktop\\generics\\generic\\generic\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0F3DF2A-C357-44E0-A28E-7C90B5B2CE28}|Generic\\Generic.csproj|solutionrelative:generic\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0F3DF2A-C357-44E0-A28E-7C90B5B2CE28}|Generic\\Generic.csproj|c:\\users\\astefanov9\\desktop\\generics\\generic\\generic\\mylinq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0F3DF2A-C357-44E0-A28E-7C90B5B2CE28}|Generic\\Generic.csproj|solutionrelative:generic\\mylinq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\astefanov9\\Desktop\\Generics\\Generic\\Generic\\Person.cs",
+              "RelativeDocumentMoniker": "Generic\\Person.cs",
+              "ToolTip": "C:\\Users\\astefanov9\\Desktop\\Generics\\Generic\\Generic\\Person.cs",
+              "RelativeToolTip": "Generic\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T12:38:46.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyLINQ.cs",
+              "DocumentMoniker": "C:\\Users\\astefanov9\\Desktop\\Generics\\Generic\\Generic\\MyLINQ.cs",
+              "RelativeDocumentMoniker": "Generic\\MyLINQ.cs",
+              "ToolTip": "C:\\Users\\astefanov9\\Desktop\\Generics\\Generic\\Generic\\MyLINQ.cs",
+              "RelativeToolTip": "Generic\\MyLINQ.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T12:21:35.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\astefanov9\\Desktop\\Generics\\Generic\\Generic\\Program.cs",
+              "RelativeDocumentMoniker": "Generic\\Program.cs",
+              "ToolTip": "C:\\Users\\astefanov9\\Desktop\\Generics\\Generic\\Generic\\Program.cs",
+              "RelativeToolTip": "Generic\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T12:08:18.881Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
